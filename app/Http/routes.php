@@ -25,15 +25,13 @@ $api->version('v1', function($api){
     $api->get('testmethod', 'App\Http\Controllers\Api\ApiUserController@index');
     $api->post('auth/login', 'App\Http\Controllers\Api\ApiUserController@login');
     $api->post('auth/register', 'App\Http\Controllers\Api\ApiUserController@register');
+
 });
 
-/*$api->version('v1', function($api){
-    $api->group(['middleware' => 'jwt.auth'], function () {
-        $api->version('v1', function($api){
-            $api->get('user', 'App\Http\Controllers\Api\ApiUserController@getAuthUser');
-        });
-    });
-});*/
+$api->version('v1', ['middleware' => 'api.auth'], function($api){
+    $api->get('auth/user', 'App\Http\Controllers\Api\ApiUserController@getAuthUser');
+    $api->post('add/appointment', 'App\Http\Controllers\Api\ApiUserAppointmentController@addAppointment');
+});
 
 /* End Dingo API */
 
