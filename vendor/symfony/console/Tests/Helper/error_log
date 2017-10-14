@@ -1,0 +1,10 @@
+[16-Sep-2017 06:41:51 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Helper/FormatterHelperTest.php on line 17
+[16-Sep-2017 06:41:51 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Helper/HelperSetTest.php on line 18
+[16-Sep-2017 06:41:52 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Helper/HelperTest.php on line 17
+[16-Sep-2017 06:41:52 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Helper/ProcessHelperTest.php on line 21
+[16-Sep-2017 06:41:53 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Helper/ProgressBarTest.php on line 22
+[16-Sep-2017 06:41:53 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Helper/ProgressIndicatorTest.php on line 12
+[16-Sep-2017 06:41:54 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Helper/QuestionHelperTest.php on line 27
+[16-Sep-2017 06:41:54 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Helper/SymfonyQuestionHelperTest.php on line 15
+[16-Sep-2017 06:41:55 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Helper/TableStyleTest.php on line 17
+[16-Sep-2017 06:41:55 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Helper/TableTest.php on line 21

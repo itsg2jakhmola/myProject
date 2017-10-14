@@ -1,0 +1,1 @@
+[16-Sep-2017 05:42:30 America/Chicago] PHP Fatal error:  Interface 'phpDocumentor\Reflection\DocBlockFactoryInterface' not found in /home/rvsclass/public_html/medcrip/vendor/phpdocumentor/reflection-docblock/src/DocBlockFactory.php on line 22

@@ -1,0 +1,1 @@
+[16-Sep-2017 05:01:02 America/Chicago] PHP Fatal error:  Call to a member function define() on null in /home/rvsclass/public_html/medcrip/database/factories/ModelFactory.php on line 14

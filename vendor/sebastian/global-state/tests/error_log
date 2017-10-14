@@ -1,0 +1,2 @@
+[16-Sep-2017 05:44:03 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/sebastian/global-state/tests/BlacklistTest.php on line 18
+[16-Sep-2017 05:44:04 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/sebastian/global-state/tests/SnapshotTest.php on line 20

@@ -1,0 +1,1 @@
+[16-Sep-2017 05:00:33 America/Chicago] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/rvsclass/public_html/medcrip/app/Exceptions/Handler.php on line 13

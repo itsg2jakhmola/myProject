@@ -1,0 +1,6 @@
+[16-Sep-2017 06:33:33 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/tests/Hamcrest/AbstractMatcherTest.php on line 8
+[16-Sep-2017 06:33:33 America/Chicago] PHP Fatal error:  Class 'Hamcrest\BaseMatcher' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/tests/Hamcrest/BaseMatcherTest.php on line 6
+[16-Sep-2017 06:33:34 America/Chicago] PHP Fatal error:  Class 'Hamcrest\FeatureMatcher' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/tests/Hamcrest/FeatureMatcherTest.php on line 19
+[16-Sep-2017 06:33:35 America/Chicago] PHP Fatal error:  Class 'PhpUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/tests/Hamcrest/MatcherAssertTest.php on line 5
+[16-Sep-2017 06:33:35 America/Chicago] PHP Fatal error:  Interface 'Hamcrest\SelfDescribing' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/tests/Hamcrest/StringDescriptionTest.php on line 5
+[16-Sep-2017 06:33:36 America/Chicago] PHP Fatal error:  Class 'PhpUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/tests/Hamcrest/UtilTest.php on line 5

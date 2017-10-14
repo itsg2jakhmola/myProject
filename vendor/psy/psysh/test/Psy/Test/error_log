@@ -1,0 +1,5 @@
+[16-Sep-2017 07:43:40 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/psy/psysh/test/Psy/Test/AutoloaderTest.php on line 17
+[16-Sep-2017 07:43:40 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/psy/psysh/test/Psy/Test/CodeCleanerTest.php on line 17
+[16-Sep-2017 07:43:41 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/psy/psysh/test/Psy/Test/ConfigurationTest.php on line 21
+[16-Sep-2017 07:43:42 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/psy/psysh/test/Psy/Test/ConsoleColorFactoryTest.php on line 18
+[16-Sep-2017 07:43:45 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/psy/psysh/test/Psy/Test/ShellTest.php on line 22

@@ -1,0 +1,1 @@
+[16-Sep-2017 04:58:20 America/Chicago] PHP Fatal error:  Class 'Illuminate\Foundation\Application' not found in /home/rvsclass/public_html/medcrip/bootstrap/app.php on line 14

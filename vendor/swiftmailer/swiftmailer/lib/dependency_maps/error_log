@@ -1,0 +1,4 @@
+[16-Sep-2017 06:40:42 America/Chicago] PHP Fatal error:  Class 'Swift_DependencyContainer' not found in /home/rvsclass/public_html/medcrip/vendor/swiftmailer/swiftmailer/lib/dependency_maps/cache_deps.php on line 3
+[16-Sep-2017 06:40:42 America/Chicago] PHP Fatal error:  Class 'Swift_DependencyContainer' not found in /home/rvsclass/public_html/medcrip/vendor/swiftmailer/swiftmailer/lib/dependency_maps/message_deps.php on line 3
+[16-Sep-2017 06:40:43 America/Chicago] PHP Fatal error:  Class 'Swift_DependencyContainer' not found in /home/rvsclass/public_html/medcrip/vendor/swiftmailer/swiftmailer/lib/dependency_maps/mime_deps.php on line 5
+[16-Sep-2017 06:40:43 America/Chicago] PHP Fatal error:  Class 'Swift_DependencyContainer' not found in /home/rvsclass/public_html/medcrip/vendor/swiftmailer/swiftmailer/lib/dependency_maps/transport_deps.php on line 3

@@ -1,0 +1,1 @@
+[16-Sep-2017 06:42:39 America/Chicago] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/event-dispatcher/Tests/Debug/TraceableEventDispatcherTest.php on line 23

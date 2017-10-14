@@ -1,0 +1,8 @@
+[16-Sep-2017 07:43:16 America/Chicago] PHP Fatal error:  Interface 'Psy\Exception\Exception' not found in /home/rvsclass/public_html/medcrip/vendor/psy/psysh/src/Psy/Exception/BreakException.php on line 18
+[16-Sep-2017 07:43:17 America/Chicago] PHP Fatal error:  Class 'Psy\Exception\RuntimeException' not found in /home/rvsclass/public_html/medcrip/vendor/psy/psysh/src/Psy/Exception/DeprecatedException.php on line 18
+[16-Sep-2017 07:43:18 America/Chicago] PHP Fatal error:  Interface 'Psy\Exception\Exception' not found in /home/rvsclass/public_html/medcrip/vendor/psy/psysh/src/Psy/Exception/ErrorException.php on line 18
+[16-Sep-2017 07:43:21 America/Chicago] PHP Fatal error:  Interface 'Psy\Exception\Exception' not found in /home/rvsclass/public_html/medcrip/vendor/psy/psysh/src/Psy/Exception/FatalErrorException.php on line 18
+[16-Sep-2017 07:43:21 America/Chicago] PHP Fatal error:  Class 'PhpParser\Error' not found in /home/rvsclass/public_html/medcrip/vendor/psy/psysh/src/Psy/Exception/ParseErrorException.php on line 17
+[16-Sep-2017 07:43:22 America/Chicago] PHP Fatal error:  Interface 'Psy\Exception\Exception' not found in /home/rvsclass/public_html/medcrip/vendor/psy/psysh/src/Psy/Exception/RuntimeException.php on line 18
+[16-Sep-2017 07:43:23 America/Chicago] PHP Fatal error:  Interface 'Psy\Exception\Exception' not found in /home/rvsclass/public_html/medcrip/vendor/psy/psysh/src/Psy/Exception/ThrowUpException.php on line 18
+[16-Sep-2017 07:43:24 America/Chicago] PHP Fatal error:  Interface 'Psy\Exception\Exception' not found in /home/rvsclass/public_html/medcrip/vendor/psy/psysh/src/Psy/Exception/TypeErrorException.php on line 18

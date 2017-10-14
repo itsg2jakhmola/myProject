@@ -1,0 +1,8 @@
+[16-Sep-2017 07:22:16 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/phpunit/phpunit/tests/Framework/AssertTest.php on line 15
+[16-Sep-2017 07:22:16 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/phpunit/phpunit/tests/Framework/BaseTestListenerTest.php on line 15
+[16-Sep-2017 07:22:17 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/phpunit/phpunit/tests/Framework/ConstraintTest.php on line 15
+[16-Sep-2017 07:22:18 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/phpunit/phpunit/tests/_files/BeforeAndAfterTest.php on line 3
+[16-Sep-2017 07:22:18 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/phpunit/phpunit/tests/_files/NoArgTestCaseTest.php on line 3
+[16-Sep-2017 07:22:19 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/phpunit/phpunit/tests/Framework/TestFailureTest.php on line 15
+[16-Sep-2017 07:22:19 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/phpunit/phpunit/tests/Framework/TestImplementorTest.php on line 15
+[16-Sep-2017 07:22:20 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/phpunit/phpunit/tests/Framework/TestListenerTest.php on line 15

@@ -1,0 +1,2 @@
+[16-Sep-2017 07:24:31 America/Chicago] PHP Fatal error:  Class 'SebastianBergmann\GlobalState\TestFixture\BlacklistedClass' not found in /home/rvsclass/public_html/medcrip/vendor_original/sebastian/global-state/tests/_fixture/BlacklistedChildClass.php on line 16
+[16-Sep-2017 07:24:32 America/Chicago] PHP Fatal error:  Interface 'SebastianBergmann\GlobalState\TestFixture\BlacklistedInterface' not found in /home/rvsclass/public_html/medcrip/vendor_original/sebastian/global-state/tests/_fixture/BlacklistedImplementor.php on line 16

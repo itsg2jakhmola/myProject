@@ -1,0 +1,1 @@
+[16-Sep-2017 05:49:28 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/http-kernel/Debug/TraceableEventDispatcher.php on line 26

@@ -1,0 +1,1 @@
+[16-Sep-2017 07:21:24 America/Chicago] PHP Fatal error:  Interface 'MockTestInterface' not found in /home/rvsclass/public_html/medcrip/vendor_original/phpunit/phpunit-mock-objects/tests/_fixture/AbstractMockTestClass.php on line 3

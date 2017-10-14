@@ -1,0 +1,2 @@
+[16-Sep-2017 07:36:14 America/Chicago] PHP Fatal error:  Interface 'Mockery\Loader\Loader' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/Loader/EvalLoader.php on line 9
+[16-Sep-2017 07:36:16 America/Chicago] PHP Fatal error:  Interface 'Mockery\Loader\Loader' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/Loader/RequireLoader.php on line 9

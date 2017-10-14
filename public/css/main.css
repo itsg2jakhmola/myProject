@@ -1,0 +1,331 @@
+body {
+  color: #5a5a5a;
+  background:#ddd;
+  font-family: 'Poppins', sans-serif!important;
+}
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+}
+
+.top-nav{
+	min-height:32px;
+	margin-top:26px;
+}
+.top-nav ul{
+	float:right;
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+.top-nav ul li{
+	float:left;
+}
+.top-nav ul li a{
+	padding:0 10px; 
+	font-family: 'Poppins', sans-serif;
+	font-weight:500;
+	font-size:12px;
+	color:#fff;
+	transition:0.3s ease;
+}
+.top-nav ul li a:hover{
+	color:#1fb8f6;
+	text-decoration:none;
+}
+.top-nav ul li a img{
+	margin-right:5px;
+	margin-top:-5px;
+}
+footer{
+	min-height:350px;
+	background:#030d26;
+	padding:60px 0;
+}
+footer .newsletter{margin-bottom:35px;}
+footer .newsletter input{
+	height:65px;
+	background:#091e53;
+	border:0px;
+	padding-left:30px;
+	color:#fff;
+}
+footer .newsletter button{
+	height:65px;
+	background:#137ee5;
+	border:0px;
+	color:#fff;
+	padding:0 25px;
+	border-radius:0px;
+	font-weight:500;
+	letter-spacing:2px;
+	font-size:15px;
+	font-family: 'Poppins', sans-serif;
+	transition:0.3s ease;
+}
+footer .social-icons{float:right;}
+footer .social-icons ul{
+	list-style-type:none;
+	padding:0px;
+	margin:0px auto;
+}
+footer .social-icons ul li{
+	float:left;
+	padding:0 5px;
+}
+footer .social-icons ul li a{
+	padding:0px;
+}
+footer .social-icons ul li a i{
+	height:50px;
+	width:50px;
+	border-radius:50%;
+	font-size:20px;
+	color:#fff;
+	line-height:50px;
+	text-align:center;
+	background:#8f205c;
+	transition:0.3s ease;
+}
+footer .social-icons ul li a:hover i{
+	background:#fff;
+	color:#8f205c;
+}
+hr{border:1px #151d30 solid;}
+
+footer h3{
+	color:#a41e66;
+	font-size:16px;
+	font-weight:600;
+	font-family: 'Poppins', sans-serif;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+footer h3:first-letter{
+	font-size:23px;
+}
+footer  ul{
+	list-style-type:none;
+	padding:10px 0;
+	margin:0px auto;
+}
+footer  ul li{
+	padding:0 5px;
+	line-height:25px;
+}
+footer  ul li a{
+	padding:0px;
+	color:#777;
+	font-size:13px;
+	font-weight:600;
+	letter-spacing:0.5px;
+}
+footer  ul li a:hover{
+	text-decoration:none;
+	color:#a41e66;
+}
+footer .info{
+	margin-top:28px;
+	width:100%;
+	display:block;
+	overflow:hidden;
+}
+footer .info img{
+	float:left;
+	margin-right:10px;
+}
+footer .info span{
+	float:left;
+	color:#a4a6aa;
+	font-size:16px;
+	padding:0px 0;
+}
+.copyright{
+	padding:15px 0;
+	background:#fff;
+}
+.copyright p{padding:0px; margin:0px; line-height:50px; font-weight:600; font-size:13px; color:#999;}
+.copyright p span{color:#8f205c;}
+.copyright img{padding:0px; margin:0px; float:right;}
+
+.login-section{
+	min-height:670px;
+	background:#777 url(../images/login-bg.png) center fixed;
+	background-size:cover;
+}
+.login-section .lefts{
+	float:left;
+	width:50%;
+	padding:220px 100px 0 200px;
+	min-height:670px;
+	position:relative;
+}
+.login-section .lefts span img{opacity:0.5;}
+.login-section .lefts .user{
+	position:absolute;
+	width:100px;
+	height:100px;
+	right:-50px;
+	margin-top:50px;
+	background:#460838;
+	border-radius:50%;
+	text-align:center;
+	text-align:center;
+	line-height:100px;
+	box-shadow:0 0 8px #222;
+}
+.login-section .lefts h2{
+	color:#9b0f7a;
+	font-size:30px;
+	font-weight:300;
+	margin-bottom:20px;
+}
+.login-section .lefts p{
+	color:#ddd;
+	font-size:20px;
+	margin-bottom:25px;
+}
+.login-section .rights{
+	padding:220px 180px 0 100px;
+	float:left;
+	width:50%;
+	background:#460838 url(../images/login-bg-rgt.png);
+	background-size:cover;
+	min-height:670px;
+}
+
+.register{
+	padding:170px 180px 100px 100px!important;
+}
+
+.login-section .rights h3{
+	color:#fff;
+	font-size:30px;
+	font-weight:300;
+	margin-bottom:30px;
+	margin-top:10px;
+}
+.login-section .rights span{float:right; margin:0 0 0 20px;}
+.login-section .rights a{
+	color:#ccc;
+	font-size:12px;
+	font-weight:300;
+	margin-bottom:20px;
+	text-align:right;
+}
+.login-section .rights  input{
+	background:#eee;
+	border:0px;
+	border-radius:0px;
+	height:50px;
+}
+.users{
+	background:#fff url(../images/user-icon.png) no-repeat right!important;
+}
+.pass{
+	background:#fff url(../images/key-icon.png) no-repeat right!important;
+}
+
+.login-section .rights .radio{
+	font-size:12px;
+}
+.login-section .rights .radio span{
+	float:left;
+	margin:0px 10px 0 0;
+	font-size:14px;
+	color:#fff;
+	padding-top:3px;
+}
+.login-section .rights .radio label{padding:0px 0 0 0px; margin-bottom:10px;}
+.checkbox label:after, 
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 2px solid #137ee5;
+    border-radius: .25em;
+    width: 1.7em;
+    height: 1.7em;
+    float: left;
+    margin-right:0px;
+	color:#fff;
+}
+
+.radio .cr {
+    border-radius: 50%;color:#fff;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: 0.8em;
+    line-height: 0;
+    top: 50%;
+    left: 22%;color:#137ee5;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.06em;
+	color:#137ee5;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr {
+    opacity: .5;
+}

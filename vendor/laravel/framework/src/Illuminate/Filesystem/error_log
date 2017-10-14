@@ -1,0 +1,4 @@
+[16-Sep-2017 07:33:59 America/Chicago] PHP Fatal error:  Trait 'Illuminate\Support\Traits\Macroable' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 13
+[16-Sep-2017 07:33:59 America/Chicago] PHP Fatal error:  Interface 'Illuminate\Contracts\Filesystem\Filesystem' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemAdapter.php on line 17
+[16-Sep-2017 07:34:00 America/Chicago] PHP Fatal error:  Interface 'Illuminate\Contracts\Filesystem\Factory' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemManager.php on line 20
+[16-Sep-2017 07:34:00 America/Chicago] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemServiceProvider.php on line 8

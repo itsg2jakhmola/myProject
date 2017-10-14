@@ -1,0 +1,1 @@
+[16-Sep-2017 07:31:00 America/Chicago] PHP Fatal error:  Interface 'Doctrine\Instantiator\InstantiatorInterface' not found in /home/rvsclass/public_html/medcrip/vendor/doctrine/instantiator/src/Doctrine/Instantiator/Instantiator.php on line 34

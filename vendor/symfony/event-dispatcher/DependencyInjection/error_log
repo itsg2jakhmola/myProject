@@ -1,0 +1,1 @@
+[16-Sep-2017 05:47:01 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/event-dispatcher/DependencyInjection/RegisterListenersPass.php on line 26

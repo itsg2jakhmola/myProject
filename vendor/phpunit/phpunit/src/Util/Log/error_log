@@ -1,0 +1,3 @@
+[16-Sep-2017 07:42:01 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Util_Printer' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/src/Util/Log/JSON.php on line 16
+[16-Sep-2017 07:42:02 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Util_Printer' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/src/Util/Log/JUnit.php on line 18
+[16-Sep-2017 07:42:03 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Util_Printer' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/src/Util/Log/TAP.php on line 17

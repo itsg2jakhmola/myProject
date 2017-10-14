@@ -1,0 +1,1 @@
+[16-Sep-2017 07:39:23 America/Chicago] PHP Fatal error:  Class 'PhpParser\NodeVisitorAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/NodeVisitor/NameResolver.php on line 14

@@ -1,0 +1,1 @@
+[16-Sep-2017 05:46:29 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\CssSelector\Parser\ParserInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/css-selector/Parser/Parser.php on line 29

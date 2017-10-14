@@ -1,0 +1,5 @@
+[16-Sep-2017 07:34:09 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\JsonResponse' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php on line 12
+[16-Sep-2017 07:34:10 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\RedirectResponse' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Http/RedirectResponse.php on line 15
+[16-Sep-2017 07:34:10 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\Request' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Http/Request.php on line 16
+[16-Sep-2017 07:34:11 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\Response' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Http/Response.php on line 13
+[16-Sep-2017 07:34:12 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\File\UploadedFile' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Http/UploadedFile.php on line 9

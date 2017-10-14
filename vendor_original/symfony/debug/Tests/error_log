@@ -1,0 +1,4 @@
+[16-Sep-2017 06:27:06 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/debug/Tests/DebugClassLoaderTest.php on line 18
+[16-Sep-2017 06:27:07 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/debug/Tests/ErrorHandlerTest.php on line 26
+[16-Sep-2017 06:27:07 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/debug/Tests/ExceptionHandlerTest.php on line 22
+[16-Sep-2017 06:27:09 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\Debug\ExceptionHandler' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/debug/Tests/MockExceptionHandler.php on line 17

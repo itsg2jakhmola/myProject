@@ -1,0 +1,2 @@
+[16-Sep-2017 07:17:23 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/fzaninotto/faker/test/Faker/DefaultGeneratorTest.php on line 8
+[16-Sep-2017 07:17:23 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/fzaninotto/faker/test/Faker/GeneratorTest.php on line 8

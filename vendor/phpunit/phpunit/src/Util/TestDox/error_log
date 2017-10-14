@@ -1,0 +1,1 @@
+[16-Sep-2017 07:42:08 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Util_Printer' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/src/Util/TestDox/ResultPrinter.php on line 16

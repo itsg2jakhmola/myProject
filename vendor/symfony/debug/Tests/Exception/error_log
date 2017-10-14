@@ -1,0 +1,1 @@
+[16-Sep-2017 06:42:27 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/debug/Tests/Exception/FlattenExceptionTest.php on line 31

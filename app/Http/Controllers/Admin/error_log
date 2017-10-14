@@ -1,0 +1,14 @@
+[16-Sep-2017 05:32:42 America/Chicago] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/rvsclass/public_html/medcrip/app/Http/Controllers/Admin/AddPrescriptionController.php on line 11
+[16-Sep-2017 05:32:43 America/Chicago] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/rvsclass/public_html/medcrip/app/Http/Controllers/Admin/AppoinmentController.php on line 11
+[16-Sep-2017 05:32:44 America/Chicago] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/rvsclass/public_html/medcrip/app/Http/Controllers/Admin/ApppoinmentReminderController.php on line 13
+[16-Sep-2017 05:32:45 America/Chicago] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/rvsclass/public_html/medcrip/app/Http/Controllers/Admin/CancelationListController.php on line 11
+[16-Sep-2017 05:32:45 America/Chicago] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/rvsclass/public_html/medcrip/app/Http/Controllers/Admin/DashboardController.php on line 11
+[16-Sep-2017 05:32:46 America/Chicago] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/rvsclass/public_html/medcrip/app/Http/Controllers/Admin/DoctorAppointmentController.php on line 17
+[16-Sep-2017 05:32:46 America/Chicago] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/rvsclass/public_html/medcrip/app/Http/Controllers/Admin/MedicalController.php on line 11
+[16-Sep-2017 05:32:47 America/Chicago] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/rvsclass/public_html/medcrip/app/Http/Controllers/Admin/MedicalHistoryController.php on line 11
+[16-Sep-2017 05:32:48 America/Chicago] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/rvsclass/public_html/medcrip/app/Http/Controllers/Admin/MyAppointmentController.php on line 17
+[16-Sep-2017 05:32:48 America/Chicago] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/rvsclass/public_html/medcrip/app/Http/Controllers/Admin/PatientMedicalHistory.php on line 11
+[16-Sep-2017 05:32:50 America/Chicago] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/rvsclass/public_html/medcrip/app/Http/Controllers/Admin/PharmacyController.php on line 17
+[16-Sep-2017 05:32:50 America/Chicago] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/rvsclass/public_html/medcrip/app/Http/Controllers/Admin/PrescriptionController.php on line 11
+[16-Sep-2017 05:32:51 America/Chicago] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/rvsclass/public_html/medcrip/app/Http/Controllers/Admin/ReviewController.php on line 11
+[16-Sep-2017 05:32:52 America/Chicago] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/rvsclass/public_html/medcrip/app/Http/Controllers/Admin/UserController.php on line 14

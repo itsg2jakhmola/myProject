@@ -1,0 +1,2 @@
+[16-Sep-2017 07:33:12 America/Chicago] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Bus/BusServiceProvider.php on line 8
+[16-Sep-2017 07:33:13 America/Chicago] PHP Fatal error:  Interface 'Illuminate\Contracts\Bus\QueueingDispatcher' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php on line 14

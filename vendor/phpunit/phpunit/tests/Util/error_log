@@ -1,0 +1,6 @@
+[16-Sep-2017 06:38:54 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/tests/Util/ConfigurationTest.php on line 15
+[16-Sep-2017 06:38:54 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/tests/Util/GetoptTest.php on line 14
+[16-Sep-2017 06:38:55 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/tests/Util/GlobalStateTest.php on line 14
+[16-Sep-2017 06:38:55 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/tests/Util/RegexTest.php on line 15
+[16-Sep-2017 06:38:56 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/tests/_files/CoverageNamespacedFunctionTest.php on line 3
+[16-Sep-2017 06:38:56 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/tests/Util/XMLTest.php on line 16

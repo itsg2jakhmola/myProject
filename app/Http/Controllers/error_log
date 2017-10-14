@@ -1,0 +1,4 @@
+[16-Sep-2017 05:06:36 America/Chicago] PHP Fatal error:  Class 'Illuminate\Routing\Controller' not found in /home/rvsclass/public_html/medcrip/app/Http/Controllers/Controller.php on line 12
+[16-Sep-2017 05:06:37 America/Chicago] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/rvsclass/public_html/medcrip/app/Http/Controllers/HomeController.php on line 9
+[16-Sep-2017 05:06:39 America/Chicago] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/rvsclass/public_html/medcrip/app/Http/Controllers/LoginController.php on line 14
+[16-Sep-2017 05:06:39 America/Chicago] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/rvsclass/public_html/medcrip/app/Http/Controllers/UserController.php on line 14

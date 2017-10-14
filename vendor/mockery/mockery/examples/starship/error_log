@@ -1,0 +1,1 @@
+[16-Sep-2017 06:34:55 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/examples/starship/StarshipTest.php on line 8

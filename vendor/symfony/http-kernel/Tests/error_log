@@ -1,0 +1,6 @@
+[16-Sep-2017 05:50:36 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/http-kernel/Tests/ClientTest.php on line 22
+[16-Sep-2017 05:50:37 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/http-kernel/Tests/HttpKernelTest.php on line 25
+[16-Sep-2017 05:50:38 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/http-kernel/Tests/KernelTest.php on line 25
+[16-Sep-2017 05:50:39 America/Chicago] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/http-kernel/Tests/Logger.php on line 17
+[16-Sep-2017 05:50:40 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\HttpKernel\HttpKernel' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/http-kernel/Tests/TestHttpKernel.php on line 20
+[16-Sep-2017 05:50:41 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/http-kernel/Tests/UriSignerTest.php on line 17

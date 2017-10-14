@@ -1,0 +1,1 @@
+[16-Sep-2017 06:27:37 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\File\File' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/http-foundation/File/UploadedFile.php on line 26

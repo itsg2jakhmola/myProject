@@ -1,0 +1,2 @@
+[16-Sep-2017 06:38:04 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Util_Printer' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/src/TextUI/ResultPrinter.php on line 18
+[16-Sep-2017 06:38:05 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Runner_BaseTestRunner' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/src/TextUI/TestRunner.php on line 20

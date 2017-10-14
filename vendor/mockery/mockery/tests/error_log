@@ -1,0 +1,4 @@
+[16-Sep-2017 05:41:47 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'Please run "php composer.phar install --dev" in root directory to setup unit test dependencies before running the tests' in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/tests/Bootstrap.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/tests/Bootstrap.php on line 39

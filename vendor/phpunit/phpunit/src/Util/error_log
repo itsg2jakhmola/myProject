@@ -1,0 +1,1 @@
+[16-Sep-2017 06:38:07 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_Exception' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/src/Framework/Error.php on line 17

@@ -1,0 +1,3 @@
+[16-Sep-2017 05:14:43 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\Routing\RouteCompilerInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/routing/RouteCompiler.php on line 21
+[16-Sep-2017 05:14:45 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\Routing\RouterInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/routing/Router.php on line 34
+[16-Sep-2017 05:14:45 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\Routing\Matcher\UrlMatcherInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/routing/RouterInterface.php on line 24

@@ -1,0 +1,7 @@
+[16-Sep-2017 06:41:56 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Input/ArgvInputTest.php on line 20
+[16-Sep-2017 06:41:56 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Input/ArrayInputTest.php on line 20
+[16-Sep-2017 06:41:56 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Input/InputArgumentTest.php on line 17
+[16-Sep-2017 06:41:57 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Input/InputDefinitionTest.php on line 19
+[16-Sep-2017 06:41:58 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Input/InputOptionTest.php on line 17
+[16-Sep-2017 06:41:58 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Input/InputTest.php on line 20
+[16-Sep-2017 06:41:59 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Input/StringInputTest.php on line 19

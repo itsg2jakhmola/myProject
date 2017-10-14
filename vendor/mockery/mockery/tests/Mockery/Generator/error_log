@@ -1,0 +1,2 @@
+[16-Sep-2017 07:36:31 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/tests/Mockery/Generator/DefinedTargetClassTest.php on line 8
+[16-Sep-2017 07:36:32 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/tests/Mockery/Generator/MockConfigurationTest.php on line 6

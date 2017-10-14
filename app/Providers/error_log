@@ -1,0 +1,4 @@
+[16-Sep-2017 05:00:49 America/Chicago] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/rvsclass/public_html/medcrip/app/Providers/AppServiceProvider.php on line 8
+[16-Sep-2017 05:00:50 America/Chicago] PHP Fatal error:  Class 'Illuminate\Foundation\Support\Providers\AuthServiceProvider' not found in /home/rvsclass/public_html/medcrip/app/Providers/AuthServiceProvider.php on line 9
+[16-Sep-2017 05:00:52 America/Chicago] PHP Fatal error:  Class 'Illuminate\Foundation\Support\Providers\EventServiceProvider' not found in /home/rvsclass/public_html/medcrip/app/Providers/EventServiceProvider.php on line 9
+[16-Sep-2017 05:00:54 America/Chicago] PHP Fatal error:  Class 'Illuminate\Foundation\Support\Providers\RouteServiceProvider' not found in /home/rvsclass/public_html/medcrip/app/Providers/RouteServiceProvider.php on line 9

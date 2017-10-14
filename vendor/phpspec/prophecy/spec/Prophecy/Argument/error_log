@@ -1,0 +1,1 @@
+[16-Sep-2017 07:40:08 America/Chicago] PHP Fatal error:  Class 'PhpSpec\ObjectBehavior' not found in /home/rvsclass/public_html/medcrip/vendor/phpspec/prophecy/spec/Prophecy/Argument/ArgumentsWildcardSpec.php on line 9

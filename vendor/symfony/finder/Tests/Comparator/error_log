@@ -1,0 +1,3 @@
+[16-Sep-2017 06:42:41 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/finder/Tests/Comparator/ComparatorTest.php on line 17
+[16-Sep-2017 06:42:41 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/finder/Tests/Comparator/DateComparatorTest.php on line 17
+[16-Sep-2017 06:42:42 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/finder/Tests/Comparator/NumberComparatorTest.php on line 17

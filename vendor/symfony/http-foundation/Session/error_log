@@ -1,0 +1,1 @@
+[16-Sep-2017 05:47:56 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\HttpFoundation\Session\SessionInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/http-foundation/Session/Session.php on line 27

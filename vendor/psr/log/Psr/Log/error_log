@@ -1,0 +1,2 @@
+[16-Sep-2017 06:40:05 America/Chicago] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home/rvsclass/public_html/medcrip/vendor/psr/log/Psr/Log/AbstractLogger.php on line 13
+[16-Sep-2017 06:40:09 America/Chicago] PHP Fatal error:  Class 'Psr\Log\AbstractLogger' not found in /home/rvsclass/public_html/medcrip/vendor/psr/log/Psr/Log/NullLogger.php on line 14

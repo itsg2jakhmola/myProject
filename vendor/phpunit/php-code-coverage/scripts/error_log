@@ -1,0 +1,3 @@
+[16-Sep-2017 05:42:50 America/Chicago] PHP Fatal error:  Call to a member function stop() on null in /home/rvsclass/public_html/medcrip/vendor/phpunit/php-code-coverage/scripts/auto_append.php on line 2
+[16-Sep-2017 05:42:51 America/Chicago] PHP Warning:  require_once(PHP/CodeCoverage/Autoload.php): failed to open stream: No such file or directory in /home/rvsclass/public_html/medcrip/vendor/phpunit/php-code-coverage/scripts/auto_prepend.php on line 2
+[16-Sep-2017 05:42:51 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'PHP/CodeCoverage/Autoload.php' (include_path='.:/opt/php56/lib/php') in /home/rvsclass/public_html/medcrip/vendor/phpunit/php-code-coverage/scripts/auto_prepend.php on line 2

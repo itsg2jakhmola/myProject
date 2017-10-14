@@ -1,0 +1,2 @@
+[16-Sep-2017 07:33:37 America/Chicago] PHP Fatal error:  Interface 'Illuminate\Contracts\Cookie\QueueingFactory' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Cookie/CookieJar.php on line 10
+[16-Sep-2017 07:33:38 America/Chicago] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php on line 8

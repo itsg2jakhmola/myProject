@@ -1,0 +1,1 @@
+[16-Sep-2017 07:41:20 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit-mock-objects/tests/MockObject/Matcher/ConsecutiveParametersTest.php on line 3

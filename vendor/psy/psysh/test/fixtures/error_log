@@ -1,0 +1,1 @@
+[16-Sep-2017 06:40:18 America/Chicago] PHP Fatal error:  Call to a member function setRuntimeDir() on null in /home/rvsclass/public_html/medcrip/vendor/psy/psysh/test/fixtures/config.php on line 12

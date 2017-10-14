@@ -1,0 +1,4 @@
+[16-Sep-2017 05:44:43 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\Console\Event\ConsoleEvent' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Event/ConsoleCommandEvent.php on line 20
+[16-Sep-2017 05:44:44 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\EventDispatcher\Event' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Event/ConsoleEvent.php on line 25
+[16-Sep-2017 05:44:44 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\Console\Event\ConsoleEvent' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Event/ConsoleExceptionEvent.php on line 24
+[16-Sep-2017 05:44:45 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\Console\Event\ConsoleEvent' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Event/ConsoleTerminateEvent.php on line 24

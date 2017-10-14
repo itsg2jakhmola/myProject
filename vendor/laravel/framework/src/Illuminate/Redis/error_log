@@ -1,0 +1,2 @@
+[16-Sep-2017 07:34:38 America/Chicago] PHP Fatal error:  Interface 'Illuminate\Contracts\Redis\Database' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Redis/Database.php on line 11
+[16-Sep-2017 07:34:39 America/Chicago] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Redis/RedisServiceProvider.php on line 8

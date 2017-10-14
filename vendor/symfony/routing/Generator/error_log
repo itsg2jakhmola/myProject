@@ -1,0 +1,2 @@
+[16-Sep-2017 05:51:06 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\Routing\Generator\UrlGeneratorInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/routing/Generator/UrlGenerator.php on line 28
+[16-Sep-2017 05:51:07 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\Routing\RequestContextAwareInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/routing/Generator/UrlGeneratorInterface.php on line 33

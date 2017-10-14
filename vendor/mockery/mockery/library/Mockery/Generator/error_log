@@ -1,0 +1,2 @@
+[16-Sep-2017 07:36:06 America/Chicago] PHP Fatal error:  Interface 'Mockery\Generator\Generator' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/Generator/CachingGenerator.php on line 6
+[16-Sep-2017 07:36:11 America/Chicago] PHP Fatal error:  Interface 'Mockery\Generator\Generator' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/Generator/StringManipulationGenerator.php on line 8

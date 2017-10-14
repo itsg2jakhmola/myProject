@@ -1,0 +1,2 @@
+[16-Sep-2017 05:46:59 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcherInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php on line 28
+[16-Sep-2017 05:47:00 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\EventDispatcher\EventDispatcherInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcherInterface.php on line 20

@@ -1,0 +1,2 @@
+[16-Sep-2017 07:33:33 America/Chicago] PHP Fatal error:  Interface 'Illuminate\Contracts\Container\Container' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 16
+[16-Sep-2017 07:33:34 America/Chicago] PHP Fatal error:  Interface 'Illuminate\Contracts\Container\ContextualBindingBuilder' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Container/ContextualBindingBuilder.php on line 8

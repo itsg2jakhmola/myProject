@@ -1,0 +1,1 @@
+[16-Sep-2017 05:06:31 America/Chicago] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home/rvsclass/public_html/medcrip/app/Console/Commands/Inspire.php on line 9

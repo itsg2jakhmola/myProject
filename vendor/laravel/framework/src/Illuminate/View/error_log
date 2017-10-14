@@ -1,0 +1,5 @@
+[16-Sep-2017 07:35:26 America/Chicago] PHP Fatal error:  Class 'Illuminate\Support\HtmlString' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/View/Expression.php on line 11
+[16-Sep-2017 07:35:27 America/Chicago] PHP Fatal error:  Interface 'Illuminate\Contracts\View\Factory' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/View/Factory.php on line 16
+[16-Sep-2017 07:35:27 America/Chicago] PHP Fatal error:  Interface 'Illuminate\View\ViewFinderInterface' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 9
+[16-Sep-2017 07:35:28 America/Chicago] PHP Fatal error:  Interface 'Illuminate\Contracts\View\View' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/View/View.php on line 18
+[16-Sep-2017 07:35:29 America/Chicago] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php on line 12

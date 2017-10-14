@@ -1,0 +1,1 @@
+[16-Sep-2017 05:45:47 America/Chicago] PHP Fatal error:  Class 'Psr\Log\AbstractLogger' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Logger/ConsoleLogger.php on line 28

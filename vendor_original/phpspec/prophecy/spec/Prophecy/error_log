@@ -1,0 +1,2 @@
+[16-Sep-2017 07:20:19 America/Chicago] PHP Fatal error:  Class 'PhpSpec\ObjectBehavior' not found in /home/rvsclass/public_html/medcrip/vendor_original/phpspec/prophecy/spec/Prophecy/ArgumentSpec.php on line 8
+[16-Sep-2017 07:20:19 America/Chicago] PHP Fatal error:  Class 'PhpSpec\ObjectBehavior' not found in /home/rvsclass/public_html/medcrip/vendor_original/phpspec/prophecy/spec/Prophecy/ProphetSpec.php on line 13

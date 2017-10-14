@@ -1,0 +1,1 @@
+[16-Sep-2017 05:39:15 America/Chicago] PHP Fatal error:  Interface 'SuperClosure\SerializerInterface' not found in /home/rvsclass/public_html/medcrip/vendor/jeremeamia/SuperClosure/src/Serializer.php on line 15

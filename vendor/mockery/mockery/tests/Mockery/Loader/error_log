@@ -1,0 +1,3 @@
+[16-Sep-2017 07:36:34 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/tests/Mockery/Loader/LoaderTestCase.php on line 9
+[16-Sep-2017 07:36:34 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/tests/Mockery/Loader/LoaderTestCase.php on line 9
+[16-Sep-2017 07:36:35 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/tests/Mockery/Loader/LoaderTestCase.php on line 9

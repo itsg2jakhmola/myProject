@@ -1,0 +1,5 @@
+[16-Sep-2017 05:42:22 America/Chicago] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'creating archive "/home/rvsclass/public_html/medcrip/vendor/paragonie/random_compat/dist/random_compat.phar" disabled by the php.ini setting phar.readonly' in /home/rvsclass/public_html/medcrip/vendor/paragonie/random_compat/other/build_phar.php:13
+Stack trace:
+#0 /home/rvsclass/public_html/medcrip/vendor/paragonie/random_compat/other/build_phar.php(13): Phar->__construct('/home/rvsclass/...', 256, 'random_compat.p...')
+#1 {main}
+  thrown in /home/rvsclass/public_html/medcrip/vendor/paragonie/random_compat/other/build_phar.php on line 13

@@ -1,0 +1,2 @@
+[16-Sep-2017 07:34:08 America/Chicago] PHP Fatal error:  Interface 'Illuminate\Contracts\Hashing\Hasher' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Hashing/BcryptHasher.php on line 9
+[16-Sep-2017 07:34:08 America/Chicago] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Hashing/HashServiceProvider.php on line 8

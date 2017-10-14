@@ -1,0 +1,1 @@
+[16-Sep-2017 07:34:13 America/Chicago] PHP Fatal error:  Interface 'Illuminate\Contracts\Logging\Log' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Log/Writer.php on line 20

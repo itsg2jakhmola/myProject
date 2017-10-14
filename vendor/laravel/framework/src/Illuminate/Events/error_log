@@ -1,0 +1,2 @@
+[16-Sep-2017 07:33:57 America/Chicago] PHP Fatal error:  Interface 'Illuminate\Contracts\Events\Dispatcher' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php on line 15
+[16-Sep-2017 07:33:57 America/Chicago] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Events/EventServiceProvider.php on line 8

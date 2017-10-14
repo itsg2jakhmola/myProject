@@ -1,0 +1,1 @@
+[16-Sep-2017 05:06:42 America/Chicago] PHP Fatal error:  Class 'Illuminate\Foundation\Http\FormRequest' not found in /home/rvsclass/public_html/medcrip/app/Http/Requests/Request.php on line 8

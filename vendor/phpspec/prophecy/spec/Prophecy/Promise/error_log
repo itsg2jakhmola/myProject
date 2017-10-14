@@ -1,0 +1,4 @@
+[16-Sep-2017 07:40:19 America/Chicago] PHP Fatal error:  Class 'PhpSpec\ObjectBehavior' not found in /home/rvsclass/public_html/medcrip/vendor/phpspec/prophecy/spec/Prophecy/Promise/CallbackPromiseSpec.php on line 10
+[16-Sep-2017 07:40:19 America/Chicago] PHP Fatal error:  Class 'PhpSpec\ObjectBehavior' not found in /home/rvsclass/public_html/medcrip/vendor/phpspec/prophecy/spec/Prophecy/Promise/ReturnArgumentPromiseSpec.php on line 10
+[16-Sep-2017 07:40:20 America/Chicago] PHP Fatal error:  Class 'PhpSpec\ObjectBehavior' not found in /home/rvsclass/public_html/medcrip/vendor/phpspec/prophecy/spec/Prophecy/Promise/ReturnPromiseSpec.php on line 10
+[16-Sep-2017 07:40:20 America/Chicago] PHP Fatal error:  Class 'PhpSpec\ObjectBehavior' not found in /home/rvsclass/public_html/medcrip/vendor/phpspec/prophecy/spec/Prophecy/Promise/ThrowPromiseSpec.php on line 11

@@ -1,0 +1,5 @@
+[16-Sep-2017 07:33:28 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\Console\Application' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Console/Application.php on line 14
+[16-Sep-2017 07:33:29 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\Console\Command\Command' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Console/Command.php on line 17
+[16-Sep-2017 07:33:30 America/Chicago] PHP Fatal error:  Class 'Illuminate\Console\Command' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Console/GeneratorCommand.php on line 10
+[16-Sep-2017 07:33:31 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\Console\Style\SymfonyStyle' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Console/OutputStyle.php on line 10
+[16-Sep-2017 07:33:32 America/Chicago] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Console/ScheduleServiceProvider.php on line 8

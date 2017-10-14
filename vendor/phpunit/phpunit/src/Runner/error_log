@@ -1,0 +1,2 @@
+[16-Sep-2017 06:38:01 America/Chicago] PHP Fatal error:  Interface 'PHPUnit_Exception' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/src/Runner/Exception.php on line 15
+[16-Sep-2017 06:38:02 America/Chicago] PHP Fatal error:  Interface 'PHPUnit_Runner_TestSuiteLoader' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php on line 17

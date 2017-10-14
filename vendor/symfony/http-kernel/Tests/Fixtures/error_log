@@ -1,0 +1,4 @@
+[16-Sep-2017 06:43:35 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\HttpKernel\Kernel' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/http-kernel/Tests/Fixtures/KernelForOverrideName.php on line 18
+[16-Sep-2017 06:43:36 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\HttpKernel\Kernel' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/http-kernel/Tests/Fixtures/KernelForTest.php on line 18
+[16-Sep-2017 06:43:37 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\HttpKernel\Client' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/http-kernel/Tests/Fixtures/TestClient.php on line 17
+[16-Sep-2017 06:43:38 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\EventDispatcher\EventDispatcher' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/http-kernel/Tests/Fixtures/TestEventDispatcher.php on line 17

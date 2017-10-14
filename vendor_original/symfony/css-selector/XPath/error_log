@@ -1,0 +1,1 @@
+[16-Sep-2017 06:26:57 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\CssSelector\XPath\TranslatorInterface' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/css-selector/XPath/Translator.php on line 32

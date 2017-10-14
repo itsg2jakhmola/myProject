@@ -1,0 +1,1 @@
+[16-Sep-2017 05:44:06 America/Chicago] PHP Fatal error:  Interface 'SebastianBergmann\RecursionContext\Exception' not found in /home/rvsclass/public_html/medcrip/vendor/sebastian/recursion-context/src/InvalidArgumentException.php on line 16

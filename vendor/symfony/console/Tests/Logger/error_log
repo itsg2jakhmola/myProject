@@ -1,0 +1,1 @@
+[16-Sep-2017 06:41:59 America/Chicago] PHP Fatal error:  Class 'Psr\Log\Test\LoggerInterfaceTest' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Logger/ConsoleLoggerTest.php on line 26

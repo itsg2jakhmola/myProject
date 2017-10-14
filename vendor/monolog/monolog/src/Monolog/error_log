@@ -1,0 +1,1 @@
+[16-Sep-2017 06:35:23 America/Chicago] PHP Fatal error:  Interface 'Psr\Log\LoggerInterface' not found in /home/rvsclass/public_html/medcrip/vendor/monolog/monolog/src/Monolog/Logger.php on line 28

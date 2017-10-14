@@ -1,0 +1,9 @@
+[16-Sep-2017 06:33:23 America/Chicago] PHP Fatal error:  Interface 'Hamcrest\Description' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/BaseDescription.php on line 13
+[16-Sep-2017 06:33:24 America/Chicago] PHP Fatal error:  Interface 'Hamcrest\Matcher' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/BaseMatcher.php on line 14
+[16-Sep-2017 06:33:25 America/Chicago] PHP Fatal error:  Class 'Hamcrest\BaseMatcher' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/DiagnosingMatcher.php on line 12
+[16-Sep-2017 06:33:26 America/Chicago] PHP Fatal error:  Class 'Hamcrest\TypeSafeDiagnosingMatcher' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/FeatureMatcher.php on line 14
+[16-Sep-2017 06:33:26 America/Chicago] PHP Fatal error:  Interface 'Hamcrest\SelfDescribing' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Matcher.php on line 24
+[16-Sep-2017 06:33:28 America/Chicago] PHP Fatal error:  Interface 'Hamcrest\Description' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/NullDescription.php on line 12
+[16-Sep-2017 06:33:29 America/Chicago] PHP Fatal error:  Class 'Hamcrest\BaseDescription' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/StringDescription.php on line 12
+[16-Sep-2017 06:33:30 America/Chicago] PHP Fatal error:  Class 'Hamcrest\TypeSafeMatcher' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/TypeSafeDiagnosingMatcher.php on line 10
+[16-Sep-2017 06:33:32 America/Chicago] PHP Fatal error:  Class 'Hamcrest\BaseMatcher' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/TypeSafeMatcher.php on line 14

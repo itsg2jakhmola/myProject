@@ -1,0 +1,1 @@
+[16-Sep-2017 05:30:54 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\DomCrawler\Link' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/dom-crawler/Form.php on line 22

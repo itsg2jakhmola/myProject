@@ -1,0 +1,1 @@
+[16-Sep-2017 07:32:53 America/Chicago] PHP Fatal error:  Class 'Hamcrest\AbstractMatcherTest' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Xml/HasXPathTest.php on line 5

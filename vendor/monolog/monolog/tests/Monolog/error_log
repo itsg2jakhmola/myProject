@@ -1,0 +1,5 @@
+[16-Sep-2017 06:35:24 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/monolog/monolog/tests/Monolog/ErrorHandlerTest.php on line 17
+[16-Sep-2017 06:35:25 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/monolog/monolog/tests/Monolog/LoggerTest.php on line 18
+[16-Sep-2017 06:35:26 America/Chicago] PHP Fatal error:  Class 'Psr\Log\Test\LoggerInterfaceTest' not found in /home/rvsclass/public_html/medcrip/vendor/monolog/monolog/tests/Monolog/PsrLogCompatTest.php on line 20
+[16-Sep-2017 06:35:26 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/monolog/monolog/tests/Monolog/RegistryTest.php on line 15
+[16-Sep-2017 06:35:27 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/monolog/monolog/tests/Monolog/TestCase.php on line 15

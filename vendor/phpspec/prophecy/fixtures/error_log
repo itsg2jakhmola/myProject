@@ -1,0 +1,1 @@
+[16-Sep-2017 05:42:42 America/Chicago] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/rvsclass/public_html/medcrip/vendor/phpspec/prophecy/fixtures/WithReturnTypehints.php on line 7

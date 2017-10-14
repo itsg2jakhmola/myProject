@@ -1,0 +1,1 @@
+[16-Sep-2017 05:32:52 America/Chicago] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/rvsclass/public_html/medcrip/app/Http/Controllers/Api/NotificationController.php on line 15

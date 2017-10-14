@@ -1,0 +1,9 @@
+[16-Sep-2017 05:51:51 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/translation/Tests/DataCollectorTranslatorTest.php on line 19
+[16-Sep-2017 05:51:52 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/translation/Tests/IdentityTranslatorTest.php on line 18
+[16-Sep-2017 05:51:53 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/translation/Tests/IntervalTest.php on line 17
+[16-Sep-2017 05:51:53 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/translation/Tests/LoggingTranslatorTest.php on line 19
+[16-Sep-2017 05:51:54 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/translation/Tests/MessageCatalogueTest.php on line 17
+[16-Sep-2017 05:51:55 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/translation/Tests/MessageSelectorTest.php on line 17
+[16-Sep-2017 05:51:55 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/translation/Tests/PluralizationRulesTest.php on line 30
+[16-Sep-2017 05:51:56 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/translation/Tests/TranslatorCacheTest.php on line 21
+[16-Sep-2017 05:51:56 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/translation/Tests/TranslatorTest.php on line 20

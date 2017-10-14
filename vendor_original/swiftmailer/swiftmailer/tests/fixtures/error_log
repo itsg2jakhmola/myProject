@@ -1,0 +1,1 @@
+[16-Sep-2017 07:24:44 America/Chicago] PHP Fatal error:  Interface 'Swift_Mime_MimeEntity' not found in /home/rvsclass/public_html/medcrip/vendor_original/swiftmailer/swiftmailer/tests/fixtures/MimeEntityFixture.php on line 4

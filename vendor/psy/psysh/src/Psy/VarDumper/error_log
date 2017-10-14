@@ -1,0 +1,2 @@
+[16-Sep-2017 07:43:37 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Cloner\VarCloner' not found in /home/rvsclass/public_html/medcrip/vendor/psy/psysh/src/Psy/VarDumper/Cloner.php on line 22
+[16-Sep-2017 07:43:38 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Dumper\CliDumper' not found in /home/rvsclass/public_html/medcrip/vendor/psy/psysh/src/Psy/VarDumper/Dumper.php on line 22

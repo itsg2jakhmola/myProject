@@ -1,0 +1,2 @@
+[16-Sep-2017 05:00:36 America/Chicago] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Kernel' not found in /home/rvsclass/public_html/medcrip/app/Http/Kernel.php on line 8
+[16-Sep-2017 05:00:38 America/Chicago] PHP Fatal error:  Class 'Route' not found in /home/rvsclass/public_html/medcrip/app/Http/routes.php on line 14

@@ -1,0 +1,1 @@
+[16-Sep-2017 07:45:30 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeSessionHandler' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/http-foundation/Session/Storage/Handler/NativeFileSessionHandler.php on line 22

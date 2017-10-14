@@ -1,0 +1,2 @@
+[16-Sep-2017 05:51:39 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\Translation\Exception\ExceptionInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/translation/Exception/InvalidResourceException.php on line 20
+[16-Sep-2017 05:51:39 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\Translation\Exception\ExceptionInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/translation/Exception/NotFoundResourceException.php on line 20

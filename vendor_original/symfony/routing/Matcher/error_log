@@ -1,0 +1,4 @@
+[16-Sep-2017 06:29:21 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\Routing\Matcher\UrlMatcher' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/routing/Matcher/RedirectableUrlMatcher.php on line 20
+[16-Sep-2017 06:29:23 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\Routing\Matcher\UrlMatcher' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/routing/Matcher/TraceableUrlMatcher.php on line 25
+[16-Sep-2017 06:29:23 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\Routing\Matcher\UrlMatcherInterface' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/routing/Matcher/UrlMatcher.php on line 28
+[16-Sep-2017 06:29:24 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\Routing\RequestContextAwareInterface' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/routing/Matcher/UrlMatcherInterface.php on line 24

@@ -1,0 +1,1 @@
+[16-Sep-2017 07:40:57 America/Chicago] PHP Fatal error:  Class 'PHP_CodeCoverage_Exception' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/php-code-coverage/src/CodeCoverage/Exception/UnintentionallyCoveredCode.php on line 17

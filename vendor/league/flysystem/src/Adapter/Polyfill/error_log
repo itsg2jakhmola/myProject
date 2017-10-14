@@ -1,0 +1,1 @@
+[16-Sep-2017 07:35:43 America/Chicago] PHP Fatal error:  Trait 'League\Flysystem\Adapter\Polyfill\StreamedReadingTrait' not found in /home/rvsclass/public_html/medcrip/vendor/league/flysystem/src/Adapter/Polyfill/StreamedTrait.php on line 7

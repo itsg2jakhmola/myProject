@@ -1,0 +1,3 @@
+[16-Sep-2017 07:41:54 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_Error' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/src/Framework/Error/Deprecated.php on line 22
+[16-Sep-2017 07:41:55 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_Error' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/src/Framework/Error/Notice.php on line 22
+[16-Sep-2017 07:41:56 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_Error' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/src/Framework/Error/Warning.php on line 22

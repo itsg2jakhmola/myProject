@@ -1,0 +1,1 @@
+[16-Sep-2017 07:39:42 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/test/PhpParser/Unserializer/XMLTest.php on line 9

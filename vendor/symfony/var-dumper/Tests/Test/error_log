@@ -1,0 +1,1 @@
+[16-Sep-2017 06:45:04 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/var-dumper/Tests/Test/VarDumperTestTraitTest.php on line 17

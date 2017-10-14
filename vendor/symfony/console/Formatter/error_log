@@ -1,0 +1,2 @@
+[16-Sep-2017 05:44:50 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\Console\Formatter\OutputFormatterInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Formatter/OutputFormatter.php on line 22
+[16-Sep-2017 05:44:51 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\Console\Formatter\OutputFormatterStyleInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Formatter/OutputFormatterStyle.php on line 22

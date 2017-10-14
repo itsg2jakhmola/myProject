@@ -1,0 +1,1 @@
+[16-Sep-2017 05:01:05 America/Chicago] PHP Fatal error:  Class 'Illuminate\Database\Seeder' not found in /home/rvsclass/public_html/medcrip/database/seeds/DatabaseSeeder.php on line 6

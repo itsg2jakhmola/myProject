@@ -1,0 +1,4 @@
+[16-Sep-2017 05:31:30 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\BrowserKit\Client' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/http-kernel/Client.php on line 30
+[16-Sep-2017 05:31:31 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpKernelInterface' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/http-kernel/HttpKernel.php on line 36
+[16-Sep-2017 05:31:33 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\KernelInterface' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/http-kernel/Kernel.php on line 45
+[16-Sep-2017 05:31:35 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\HttpKernelInterface' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/http-kernel/KernelInterface.php on line 25

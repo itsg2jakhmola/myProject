@@ -1,0 +1,1 @@
+[16-Sep-2017 05:44:01 America/Chicago] PHP Fatal error:  Interface 'SebastianBergmann\GlobalState\Exception' not found in /home/rvsclass/public_html/medcrip/vendor/sebastian/global-state/src/RuntimeException.php on line 16

@@ -1,0 +1,4 @@
+[16-Sep-2017 05:12:52 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\EventDispatcher\EventDispatcher' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/event-dispatcher/ContainerAwareEventDispatcher.php on line 27
+[16-Sep-2017 05:12:54 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\EventDispatcher\EventDispatcherInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/event-dispatcher/EventDispatcher.php on line 30
+[16-Sep-2017 05:12:56 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\EventDispatcher\Event' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/event-dispatcher/GenericEvent.php on line 21
+[16-Sep-2017 05:12:57 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\EventDispatcher\EventDispatcherInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/event-dispatcher/ImmutableEventDispatcher.php on line 20

@@ -1,0 +1,1 @@
+[16-Sep-2017 07:31:01 America/Chicago] PHP Fatal error:  Class 'Athletic\AthleticEvent' not found in /home/rvsclass/public_html/medcrip/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorPerformance/InstantiatorPerformanceEvent.php on line 31

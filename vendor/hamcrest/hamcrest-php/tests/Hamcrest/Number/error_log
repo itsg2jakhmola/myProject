@@ -1,0 +1,2 @@
+[16-Sep-2017 07:32:42 America/Chicago] PHP Fatal error:  Class 'Hamcrest\AbstractMatcherTest' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Number/IsCloseToTest.php on line 5
+[16-Sep-2017 07:32:42 America/Chicago] PHP Fatal error:  Class 'Hamcrest\AbstractMatcherTest' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Number/OrderingComparisonTest.php on line 5

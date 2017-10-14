@@ -1,0 +1,4 @@
+[16-Sep-2017 07:42:09 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/tests/Framework/Constraint/CountTest.php on line 16
+[16-Sep-2017 07:42:09 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/tests/Framework/Constraint/ExceptionMessageRegExpTest.php on line 16
+[16-Sep-2017 07:42:10 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/tests/Framework/Constraint/ExceptionMessageTest.php on line 16
+[16-Sep-2017 07:42:11 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/phpunit/phpunit/tests/Framework/Constraint/JsonMatchesTest.php on line 15

@@ -1,0 +1,3 @@
+[16-Sep-2017 07:27:15 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\File\File' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/http-foundation/Tests/File/FakeFile.php on line 17
+[16-Sep-2017 07:27:15 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/http-foundation/Tests/File/FileTest.php on line 18
+[16-Sep-2017 07:27:16 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/http-foundation/Tests/File/UploadedFileTest.php on line 17

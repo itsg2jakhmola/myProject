@@ -1,0 +1,1 @@
+[16-Sep-2017 05:50:31 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\Profiler\ProfilerStorageInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/http-kernel/Profiler/FileProfilerStorage.php on line 20

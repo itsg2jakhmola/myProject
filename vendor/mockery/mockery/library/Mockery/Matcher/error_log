@@ -1,0 +1,12 @@
+[16-Sep-2017 07:36:17 America/Chicago] PHP Fatal error:  Class 'Mockery\Matcher\MatcherAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/Matcher/Any.php on line 24
+[16-Sep-2017 07:36:18 America/Chicago] PHP Fatal error:  Class 'Mockery\Matcher\MatcherAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php on line 24
+[16-Sep-2017 07:36:18 America/Chicago] PHP Fatal error:  Class 'Mockery\Matcher\MatcherAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/Matcher/Closure.php on line 24
+[16-Sep-2017 07:36:19 America/Chicago] PHP Fatal error:  Class 'Mockery\Matcher\MatcherAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/Matcher/Contains.php on line 24
+[16-Sep-2017 07:36:20 America/Chicago] PHP Fatal error:  Class 'Mockery\Matcher\MatcherAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php on line 24
+[16-Sep-2017 07:36:21 America/Chicago] PHP Fatal error:  Class 'Mockery\Matcher\MatcherAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php on line 24
+[16-Sep-2017 07:36:21 America/Chicago] PHP Fatal error:  Class 'Mockery\Matcher\MatcherAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/Matcher/HasValue.php on line 24
+[16-Sep-2017 07:36:23 America/Chicago] PHP Fatal error:  Class 'Mockery\Matcher\MatcherAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php on line 24
+[16-Sep-2017 07:36:24 America/Chicago] PHP Fatal error:  Class 'Mockery\Matcher\MatcherAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/Matcher/Not.php on line 24
+[16-Sep-2017 07:36:25 America/Chicago] PHP Fatal error:  Class 'Mockery\Matcher\MatcherAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/Matcher/NotAnyOf.php on line 24
+[16-Sep-2017 07:36:26 America/Chicago] PHP Fatal error:  Class 'Mockery\Matcher\MatcherAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/Matcher/Subset.php on line 24
+[16-Sep-2017 07:36:26 America/Chicago] PHP Fatal error:  Class 'Mockery\Matcher\MatcherAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/Matcher/Type.php on line 24

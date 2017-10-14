@@ -1,0 +1,9 @@
+[16-Sep-2017 07:34:28 America/Chicago] PHP Fatal error:  Class 'Illuminate\Queue\Queue' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Queue/BeanstalkdQueue.php on line 10
+[16-Sep-2017 07:34:29 America/Chicago] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Queue/ConsoleServiceProvider.php on line 12
+[16-Sep-2017 07:34:30 America/Chicago] PHP Fatal error:  Class 'Illuminate\Queue\Queue' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Queue/DatabaseQueue.php on line 11
+[16-Sep-2017 07:34:33 America/Chicago] PHP Fatal error:  Class 'Illuminate\Queue\Queue' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Queue/NullQueue.php on line 7
+[16-Sep-2017 07:34:34 America/Chicago] PHP Fatal error:  Interface 'Illuminate\Contracts\Queue\Factory' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php on line 10
+[16-Sep-2017 07:34:34 America/Chicago] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Queue/QueueServiceProvider.php on line 20
+[16-Sep-2017 07:34:35 America/Chicago] PHP Fatal error:  Class 'Illuminate\Queue\Queue' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Queue/RedisQueue.php on line 11
+[16-Sep-2017 07:34:36 America/Chicago] PHP Fatal error:  Class 'Illuminate\Queue\Queue' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Queue/SqsQueue.php on line 9
+[16-Sep-2017 07:34:37 America/Chicago] PHP Fatal error:  Class 'Illuminate\Queue\Queue' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Queue/SyncQueue.php on line 11

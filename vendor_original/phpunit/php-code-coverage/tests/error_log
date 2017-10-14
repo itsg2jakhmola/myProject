@@ -1,0 +1,1 @@
+[16-Sep-2017 06:24:58 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/phpunit/php-code-coverage/tests/TestCase.php on line 17

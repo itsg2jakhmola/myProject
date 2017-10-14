@@ -1,0 +1,8 @@
+[16-Sep-2017 07:39:17 America/Chicago] PHP Fatal error:  Class 'PhpParser\NodeAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 8
+[16-Sep-2017 07:39:18 America/Chicago] PHP Fatal error:  Class 'PhpParser\NodeAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Node/Const_.php on line 8
+[16-Sep-2017 07:39:18 America/Chicago] PHP Fatal error:  Class 'PhpParser\NodeAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php on line 8
+[16-Sep-2017 07:39:19 America/Chicago] PHP Fatal error:  Interface 'PhpParser\Node' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php on line 8
+[16-Sep-2017 07:39:20 America/Chicago] PHP Fatal error:  Class 'PhpParser\NodeAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 8
+[16-Sep-2017 07:39:20 America/Chicago] PHP Fatal error:  Class 'PhpParser\NodeAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php on line 9
+[16-Sep-2017 07:39:21 America/Chicago] PHP Fatal error:  Class 'PhpParser\Node\Expr' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar.php on line 6
+[16-Sep-2017 07:39:21 America/Chicago] PHP Fatal error:  Class 'PhpParser\NodeAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 8

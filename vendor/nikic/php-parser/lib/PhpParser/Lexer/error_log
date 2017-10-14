@@ -1,0 +1,1 @@
+[16-Sep-2017 07:39:16 America/Chicago] PHP Fatal error:  Class 'PhpParser\Lexer' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Lexer/Emulative.php on line 11

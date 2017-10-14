@@ -1,0 +1,1 @@
+[16-Sep-2017 07:33:27 America/Chicago] PHP Fatal error:  Interface 'Illuminate\Contracts\Config\Repository' not found in /home/rvsclass/public_html/medcrip/vendor/laravel/framework/src/Illuminate/Config/Repository.php on line 10

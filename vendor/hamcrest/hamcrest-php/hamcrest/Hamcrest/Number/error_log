@@ -1,0 +1,2 @@
+[16-Sep-2017 07:32:11 America/Chicago] PHP Fatal error:  Class 'Hamcrest\TypeSafeMatcher' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Number/IsCloseTo.php on line 15
+[16-Sep-2017 07:32:11 America/Chicago] PHP Fatal error:  Class 'Hamcrest\TypeSafeMatcher' not found in /home/rvsclass/public_html/medcrip/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Number/OrderingComparison.php on line 12

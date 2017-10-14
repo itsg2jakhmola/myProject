@@ -1,0 +1,4 @@
+[16-Sep-2017 06:42:00 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Output/ConsoleOutputTest.php on line 18
+[16-Sep-2017 06:42:00 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Output/NullOutputTest.php on line 18
+[16-Sep-2017 06:42:01 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Output/OutputTest.php on line 18
+[16-Sep-2017 06:42:01 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/console/Tests/Output/StreamOutputTest.php on line 18

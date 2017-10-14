@@ -1,0 +1,2 @@
+[16-Sep-2017 07:45:40 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/http-foundation/Tests/Session/Attribute/AttributeBagTest.php on line 22
+[16-Sep-2017 07:45:41 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/http-foundation/Tests/Session/Attribute/NamespacedAttributeBagTest.php on line 22

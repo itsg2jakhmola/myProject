@@ -1,0 +1,11 @@
+[16-Sep-2017 07:39:09 America/Chicago] PHP Fatal error:  Class 'PhpParser\Builder\Declaration' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Builder/Class_.php on line 10
+[16-Sep-2017 07:39:10 America/Chicago] PHP Fatal error:  Class 'PhpParser\BuilderAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Builder/Declaration.php on line 10
+[16-Sep-2017 07:39:10 America/Chicago] PHP Fatal error:  Class 'PhpParser\Builder\Declaration' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Builder/FunctionLike.php on line 10
+[16-Sep-2017 07:39:11 America/Chicago] PHP Fatal error:  Class 'PhpParser\Builder\FunctionLike' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Builder/Function_.php on line 10
+[16-Sep-2017 07:39:11 America/Chicago] PHP Fatal error:  Class 'PhpParser\Builder\Declaration' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Builder/Interface_.php on line 10
+[16-Sep-2017 07:39:12 America/Chicago] PHP Fatal error:  Class 'PhpParser\Builder\FunctionLike' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Builder/Method.php on line 10
+[16-Sep-2017 07:39:12 America/Chicago] PHP Fatal error:  Class 'PhpParser\BuilderAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Builder/Namespace_.php on line 10
+[16-Sep-2017 07:39:13 America/Chicago] PHP Fatal error:  Class 'PhpParser\BuilderAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Builder/Param.php on line 9
+[16-Sep-2017 07:39:14 America/Chicago] PHP Fatal error:  Class 'PhpParser\BuilderAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Builder/Property.php on line 9
+[16-Sep-2017 07:39:14 America/Chicago] PHP Fatal error:  Class 'PhpParser\Builder\Declaration' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Builder/Trait_.php on line 10
+[16-Sep-2017 07:39:15 America/Chicago] PHP Fatal error:  Class 'PhpParser\BuilderAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/Builder/Use_.php on line 12

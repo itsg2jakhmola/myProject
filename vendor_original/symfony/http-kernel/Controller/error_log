@@ -1,0 +1,2 @@
+[16-Sep-2017 06:28:03 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\Controller\ControllerResolverInterface' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/http-kernel/Controller/ControllerResolver.php on line 27
+[16-Sep-2017 06:28:04 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\Controller\ControllerResolverInterface' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/http-kernel/Controller/TraceableControllerResolver.php on line 23

@@ -1,0 +1,4 @@
+[16-Sep-2017 06:34:56 America/Chicago] PHP Fatal error:  Interface 'Mockery\ExpectationInterface' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/CompositeExpectation.php on line 24
+[16-Sep-2017 06:34:59 America/Chicago] PHP Fatal error:  Interface 'Mockery\ExpectationInterface' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/Expectation.php on line 24
+[16-Sep-2017 06:35:03 America/Chicago] PHP Fatal error:  Interface 'Mockery\MockInterface' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/Mock.php on line 26
+[16-Sep-2017 06:35:08 America/Chicago] PHP Fatal error:  Class 'Mockery\Expectation' not found in /home/rvsclass/public_html/medcrip/vendor/mockery/mockery/library/Mockery/VerificationExpectation.php on line 6

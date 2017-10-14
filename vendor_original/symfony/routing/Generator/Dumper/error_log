@@ -1,0 +1,2 @@
+[16-Sep-2017 07:28:00 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\Routing\Generator\Dumper\GeneratorDumperInterface' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/routing/Generator/Dumper/GeneratorDumper.php on line 22
+[16-Sep-2017 07:28:01 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\Routing\Generator\Dumper\GeneratorDumper' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/routing/Generator/Dumper/PhpGeneratorDumper.php on line 21

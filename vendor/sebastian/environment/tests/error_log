@@ -1,0 +1,2 @@
+[16-Sep-2017 05:43:54 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/sebastian/environment/tests/ConsoleTest.php on line 16
+[16-Sep-2017 05:43:55 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/sebastian/environment/tests/RuntimeTest.php on line 16

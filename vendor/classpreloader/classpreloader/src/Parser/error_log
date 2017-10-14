@@ -1,0 +1,5 @@
+[16-Sep-2017 06:33:07 America/Chicago] PHP Fatal error:  Class 'PhpParser\NodeVisitorAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/classpreloader/classpreloader/src/Parser/AbstractNodeVisitor.php on line 23
+[16-Sep-2017 06:33:07 America/Chicago] PHP Fatal error:  Class 'ClassPreloader\Parser\AbstractNodeVisitor' not found in /home/rvsclass/public_html/medcrip/vendor/classpreloader/classpreloader/src/Parser/DirVisitor.php on line 26
+[16-Sep-2017 06:33:08 America/Chicago] PHP Fatal error:  Class 'ClassPreloader\Parser\AbstractNodeVisitor' not found in /home/rvsclass/public_html/medcrip/vendor/classpreloader/classpreloader/src/Parser/FileVisitor.php on line 26
+[16-Sep-2017 06:33:08 America/Chicago] PHP Fatal error:  Class 'PhpParser\NodeTraverser' not found in /home/rvsclass/public_html/medcrip/vendor/classpreloader/classpreloader/src/Parser/NodeTraverser.php on line 23
+[16-Sep-2017 06:33:09 America/Chicago] PHP Fatal error:  Class 'ClassPreloader\Parser\AbstractNodeVisitor' not found in /home/rvsclass/public_html/medcrip/vendor/classpreloader/classpreloader/src/Parser/StrictTypesVisitor.php on line 25

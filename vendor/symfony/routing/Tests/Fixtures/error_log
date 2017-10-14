@@ -1,0 +1,5 @@
+[16-Sep-2017 06:43:57 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\Routing\Loader\XmlFileLoader' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/routing/Tests/Fixtures/CustomXmlFileLoader.php on line 21
+[16-Sep-2017 06:43:58 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\Routing\Matcher\UrlMatcher' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/routing/Tests/Fixtures/RedirectableUrlMatcher.php on line 20
+[16-Sep-2017 06:44:09 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\Routing\RouteCollection' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/routing/Tests/Fixtures/validpattern.php on line 6
+[16-Sep-2017 06:44:11 America/Chicago] PHP Fatal error:  Call to a member function import() on null in /home/rvsclass/public_html/medcrip/vendor/symfony/routing/Tests/Fixtures/validresource.php on line 5
+[16-Sep-2017 06:44:12 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\Routing\RouteCollection' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/routing/Tests/Fixtures/with_define_path_variable.php on line 5

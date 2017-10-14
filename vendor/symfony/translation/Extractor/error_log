@@ -1,0 +1,1 @@
+[16-Sep-2017 05:51:41 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\Translation\Extractor\ExtractorInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/translation/Extractor/ChainExtractor.php on line 22

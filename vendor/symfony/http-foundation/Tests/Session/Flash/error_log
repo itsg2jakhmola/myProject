@@ -1,0 +1,2 @@
+[16-Sep-2017 07:45:41 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/http-foundation/Tests/Session/Flash/AutoExpireFlashBagTest.php on line 22
+[16-Sep-2017 07:45:42 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/http-foundation/Tests/Session/Flash/FlashBagTest.php on line 22

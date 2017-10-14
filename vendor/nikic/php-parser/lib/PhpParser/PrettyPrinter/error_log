@@ -1,0 +1,1 @@
+[16-Sep-2017 07:39:27 America/Chicago] PHP Fatal error:  Class 'PhpParser\PrettyPrinterAbstract' not found in /home/rvsclass/public_html/medcrip/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php on line 17

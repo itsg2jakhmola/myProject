@@ -1,0 +1,10 @@
+[16-Sep-2017 04:58:21 America/Chicago] PHP Fatal error:  Call to undefined function env() in /home/rvsclass/public_html/medcrip/config/app.php on line 16
+[16-Sep-2017 04:58:23 America/Chicago] PHP Fatal error:  Call to undefined function env() in /home/rvsclass/public_html/medcrip/config/broadcasting.php on line 16
+[16-Sep-2017 04:58:23 America/Chicago] PHP Fatal error:  Call to undefined function env() in /home/rvsclass/public_html/medcrip/config/cache.php on line 16
+[16-Sep-2017 04:58:24 America/Chicago] PHP Fatal error:  Call to undefined function env() in /home/rvsclass/public_html/medcrip/config/database.php on line 29
+[16-Sep-2017 04:58:25 America/Chicago] PHP Fatal error:  Call to undefined function storage_path() in /home/rvsclass/public_html/medcrip/config/filesystems.php on line 48
+[16-Sep-2017 04:58:25 America/Chicago] PHP Fatal error:  Call to undefined function env() in /home/rvsclass/public_html/medcrip/config/mail.php on line 19
+[16-Sep-2017 04:58:26 America/Chicago] PHP Fatal error:  Call to undefined function env() in /home/rvsclass/public_html/medcrip/config/queue.php on line 18
+[16-Sep-2017 04:58:27 America/Chicago] PHP Fatal error:  Call to undefined function env() in /home/rvsclass/public_html/medcrip/config/services.php on line 18
+[16-Sep-2017 04:58:27 America/Chicago] PHP Fatal error:  Call to undefined function env() in /home/rvsclass/public_html/medcrip/config/session.php on line 19
+[16-Sep-2017 04:58:28 America/Chicago] PHP Fatal error:  Call to undefined function base_path() in /home/rvsclass/public_html/medcrip/config/view.php on line 17

@@ -1,0 +1,1 @@
+[16-Sep-2017 07:28:50 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/translation/Tests/Util/ArrayConverterTest.php on line 17

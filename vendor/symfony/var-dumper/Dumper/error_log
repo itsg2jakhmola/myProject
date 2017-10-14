@@ -1,0 +1,3 @@
+[16-Sep-2017 05:52:17 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\VarDumper\Dumper\DataDumperInterface' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/var-dumper/Dumper/AbstractDumper.php on line 22
+[16-Sep-2017 05:52:19 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Dumper\AbstractDumper' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/var-dumper/Dumper/CliDumper.php on line 22
+[16-Sep-2017 05:52:20 America/Chicago] PHP Fatal error:  Class 'Symfony\Component\VarDumper\Dumper\CliDumper' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 23
