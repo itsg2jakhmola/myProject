@@ -18,6 +18,18 @@ use JWTAuthException;
 class ApiUserAppointmentcontroller extends Controller
 {
    use EmailTrait;
+
+   public function getAppointment(Request $request)
+    {
+        $user = JWTAuth::toUser($request->token);
+
+        $appointment_list = Appointment::with('appointment_request')
+                            ->where('user_id', $user->id)->orderBy('created_at', 'DESC')->get();
+        
+        return response()->json(compact('appointment_list'));
+        
+    }
+
    public function addAppointment(Request $request) {
    		
    		$user = JWTAuth::toUser($request->token);
@@ -73,4 +85,62 @@ class ApiUserAppointmentcontroller extends Controller
         return response()->json(compact('bookingRequest'));
 
    }
+
+   public function showAppointment($id)
+   {
+   	
+   	 $appointment_detail = Appointment::with('appointment_request', 'prescriptions', 'users')->where('id', $id)->first();
+     
+     try{
+     	if(!$appointment_detail){
+     		return response()->json('User not found');
+     	}
+     }catch(\Tymon\JWTAuth\Exceptions\TokenExpiredException $ex){
+     		return $this->response->error('Token Expired');
+     }
+     catch(\Tymon\JWTAuth\Exceptions\TokenInvalidException $ex){
+     		return $this->response->error('Token Invalid');
+     }   
+
+      return response()->json(compact('appointment_detail'))->setStatusCode(200);
+   }
+
+   public function editAppointment($id){
+
+   		 $appointmentRequest = Appointment::find($id);
+          $users = user::where('user_type', '2')->get();
+        
+            return response()->json(compact('appointmentRequest', 'users'));
+   }
+
+   public function updateAppointment(Request $request, $id)
+    {
+
+         $rules = [
+         	'notes' => 'required',
+         	'appointment_time' => 'required'
+         ];
+
+         $validator = \Validator::make($request->all(), $rules);
+
+         //If fail validation show the error
+
+         if ($validator->fails()) {    
+		    return response()->json($validator->messages(), 401);
+		}
+
+        $appointment = Appointment::find($id);
+        $appointment->notes = $request['notes'];
+        $appointment->appointment_time = $request['appointment_time'];
+        $appointment->save();
+
+         return response()->json(['Response' => 'Well done!! Appointment detail updated successfully']);
+    }
+
+    public function removeAppointment($id){
+    	 $appointment = Appointment::findOrFail($id);
+         $appointment->delete();
+
+         return response()->json(['Response' => 'Appointment Deleted Successfully']);	
+    }	
 }

@@ -44,8 +44,17 @@ $(document).on('click', function(e) {
 		$('.nw-nscroll').hide();
 	}
 });
+getMessageApi();
+
+
+window.setInterval(function(){
+  /// call your function here
+  getMessageApi();
+}, 5000);
+
 
 // Notifications list
+function getMessageApi(){
 $.getJSON(base_url + '/api/user/notifications?page=1', function(data) {
 	$ul = $('ul.nscroll');
 	$ul.append(data.notificationsHTML);
@@ -56,7 +65,7 @@ $.getJSON(base_url + '/api/user/notifications?page=1', function(data) {
 	$('a.ncount').data('ncount', data.unread);
 	$('a.ncount > span').text(data.unread);
 });
-
+}
 // Handle notification list scroll
 $('ul.nscroll').scroll(function(e) {
 	if ($(this).scrollTop() + $(this).innerHeight() >= $(this)[0].scrollHeight) {

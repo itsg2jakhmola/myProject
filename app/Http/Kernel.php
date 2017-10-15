@@ -33,6 +33,7 @@ class Kernel extends HttpKernel
 
         'api' => [
             'throttle:60,1',
+            'bindings',
         ],
     ];
 
@@ -52,5 +53,6 @@ class Kernel extends HttpKernel
         //'jwt.auth' => \Tymon\JWTAuth\Middleware\GetUserFromToken::class,
         'jwt.auth' => \App\Http\Middleware\VerifyJWTToken::class,
         'jwt.refresh' => \Tymon\JWTAuth\Middleware\RefreshToken::class,    
+         'bindings' => \Illuminate\Routing\middlewareare\SubstituteBindings::class,
     ];
 }

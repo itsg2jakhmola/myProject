@@ -29,8 +29,31 @@ $api->version('v1', function($api){
 });
 
 $api->version('v1', ['middleware' => 'api.auth'], function($api){
+    
     $api->get('auth/user', 'App\Http\Controllers\Api\ApiUserController@getAuthUser');
+    
+    $api->get('auth/getappointment', 'App\Http\Controllers\Api\ApiUserAppointmentController@getAppointment');
+    
+    $api->get('auth/showappointment/{id}', 'App\Http\Controllers\Api\ApiUserAppointmentController@showAppointment');
+    
     $api->post('add/appointment', 'App\Http\Controllers\Api\ApiUserAppointmentController@addAppointment');
+
+    $api->get('edit/appointment/{id}', 'App\Http\Controllers\Api\ApiUserAppointmentController@editAppointment');
+    
+    $api->patch('update/appointment/{id}', 'App\Http\Controllers\Api\ApiUserAppointmentController@updateAppointment');
+
+    $api->delete('remove/appointment/{id}', 'App\Http\Controllers\Api\ApiMedicalhistoryController@removeAppointment');
+
+    $api->post('add/medicalhistory', 'App\Http\Controllers\Api\ApiMedicalhistoryController@createMedicalHistory');
+   
+    $api->get('show/medical/{id}', 'App\Http\Controllers\Api\ApiMedicalhistoryController@showMedicalHistory');
+
+    $api->get('edit/editmedical/{id}', 'App\Http\Controllers\Api\ApiMedicalhistoryController@editMedicalHistory');
+    
+    $api->delete('remove/medical/{id}', 'App\Http\Controllers\Api\ApiMedicalhistoryController@removeMedicalHistory');
+
+    $api->patch('update/medicalhistory/{id}', 'App\Http\Controllers\Api\ApiMedicalhistoryController@updateMedicalHistory');
+
 });
 
 /* End Dingo API */
