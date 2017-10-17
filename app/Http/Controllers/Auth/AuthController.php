@@ -89,7 +89,7 @@ class AuthController extends Controller
             'lng' => $data['lng'],
             'insurance_company' => ($data['insurance_company']) ? $data['insurance_company'] : '' ,
             'insurance_number' => ($data['insurance_number']) ? $data['insurance_number'] : '' ,
-            'practice_licence' => ($data['practice_licence']) ? $data['practice_licence'] : '' ,
+            'practice_licence' => ($data['doctor_practice']) ? $data['doctor_practice'] : '' ,
             'password' => bcrypt($data['password']),
             
         ]);

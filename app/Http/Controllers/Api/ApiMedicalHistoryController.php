@@ -66,21 +66,24 @@ class ApiMedicalHistoryController extends Controller
     public function updateMedicalHistory(Request $request, $id)
     {
 
-         $this->validate($request, [
-                'name'     => 'required',
-                'description'  => 'required',
-                
-            ]);
+         	$rules = [
+         		'name' => 'required',
+         		'description' => 'required'
+         	];
 
+         	$validator = \Validator::make($request->all(), $rules);
+
+         	//If validation fails
+         	if ($validator->fails()) {    
+		   		 return response()->json($validator->messages(), 401);
+			}
+            
            $medical_history = Medicalhistory::find($id);
-            $medical_history->fill($request->all());
+           $medical_history->fill($request->all());
            
-            //image validation
-            if($request->medical_scan || !$medical_history->medical_scan){
-                $this->validate($request, [
-                'medical_scan'   => 'required | mimes:jpeg,jpg,png,gif,svg',
-                ]);
-            }
+            /*if($request->medical_scan || !$medical_history->medical_scan){
+         		$rules['medical_scan']   => 'required | mimes:jpeg,jpg,png,gif,svg',
+         	}*/
 
 
             $medical_history->name = $request->input('name');

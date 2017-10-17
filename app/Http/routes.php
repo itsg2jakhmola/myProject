@@ -52,7 +52,7 @@ $api->version('v1', ['middleware' => 'api.auth'], function($api){
     
     $api->delete('remove/medical/{id}', 'App\Http\Controllers\Api\ApiMedicalhistoryController@removeMedicalHistory');
 
-    $api->patch('update/medicalhistory/{id}', 'App\Http\Controllers\Api\ApiMedicalhistoryController@updateMedicalHistory');
+    $api->post('update/medicalhistory/{id}', 'App\Http\Controllers\Api\ApiMedicalhistoryController@updateMedicalHistory');
 
 });
 
