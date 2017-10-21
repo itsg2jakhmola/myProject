@@ -90,6 +90,22 @@
 
                             </form>
 
+                             <div>
+                             
+                             <div>  
+                               Current Active Default Doctor
+
+                              <span class="active"> {{$doctorInfo->name}} </span>
+                            </div>
+
+                            <div>
+                               Current Active Default Pharmist
+
+                               <span class="active">{{$pharmistInfo->name}} </span>
+                            </div>
+
+                             </div> 
+
                             </div>
                         </div>
                     </div>

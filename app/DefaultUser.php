@@ -9,7 +9,7 @@ class DefaultUser extends Model
     protected $table = 'default_user_assigned';
 
      protected $fillable = [
-       'id', 'user_id', 'assign_to', 'created_at', 'updated_at'
+       'id', 'user_id', 'assign_to_doctor', 'assign_to_pharmist', 'created_at', 'updated_at'
     ];
 
     public function users($local_key = 'assign_to'){

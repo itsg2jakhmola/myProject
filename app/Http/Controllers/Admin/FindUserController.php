@@ -18,8 +18,13 @@ class FindUserController extends Controller
      */
     public function index()
     {
-        $userInfo = Auth::user();
-        return view('admin.user.suggest.index', compact('userInfo'));
+        $auth = Auth::user();
+
+        $userInfo = DefaultUser::where('user_id', $auth->id)->first();
+        $doctorInfo = $auth->find($userInfo->assign_to_doctor);
+        $pharmistInfo = $auth->find($userInfo->assign_to_pharmist);
+        
+        return view('admin.user.suggest.index', compact('userInfo', 'doctorInfo', 'pharmistInfo'));
     }
 
     /**
@@ -108,8 +113,10 @@ class FindUserController extends Controller
          if($user->user_type == 2){
              $checkUser->assign_to_doctor = $user->id;
             }
-            if($user->user_type == 3){
+            else if($user->user_type == 3){
                 $checkUser->assign_to_pharmist = $user->id;   
+            }else{
+                return redirect()->back()->with('status', 'Oh Snap! Something went wrong try again later');
             }
          $checkUser->save();
 
@@ -136,15 +143,40 @@ class FindUserController extends Controller
                 'address'  => 'required_without_all:email,phone,doctor_practice,address',
             ]);
 
-            
-       $userDetail = User::where(function ($query) use ($request) {
-            $query->where('email',  $request->input('email'));
-        })->orwhere(function ($query) use ($request){
-            $query->orwhere('phone_number',  $request->phone)
-                  ->orwhere('doctor_practice',  $request->doctor_practice)
-                  ->orwhere('address', $request->address);
-        })->first();
+    if($request->input('email')){
+        $email = $request->input('email');
+     }else{
+        $email = null;
+     }
 
+     if($request->input('phone_number')){
+        $phone = $request->input('phone_number');
+     }else{
+        $phone = null;
+     } 
+
+     if($request->input('doctor_practice')){
+        $doctor_practice = $request->input('doctor_practice');
+     }else{
+        $doctor_practice = null;
+     } 
+
+     if($request->input('address')){
+        $address = $request->input('address');
+     }else{
+        $address = null;
+     }  
+
+      $userDetail = User::where('email',  $email)
+        ->orwhere(function ($query) use ($phone, $doctor_practice, $address){
+            $query->orwhere('phone_number',  $phone)
+                  ->orwhere('doctor_practice',  $doctor_practice)
+                  ->orwhere('address', $address);
+        })->first();
+            
+       /* $userDetail = \DB::select("select * from `users` where (`email` = '".$request->input('email'). "' AND `phone_number` =  '".$request->input('phone_number')"') OR (`phone_number` =  '".$request->input('phone_number'). "' or `doctor_practice` = '".$request->input('doctor_practice')."' or `address` = '".$request->input('address')."') LIMIT 1");
+
+        dd($userDetail);*/
         //echo $userDetail->toSql();
 
         return view('admin.user.suggest.show', compact('userDetail'));

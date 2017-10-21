@@ -31,6 +31,10 @@ class User extends Authenticatable
       return false;
     }
 
+    public function getDoctor(){
+        return $this->hasOne('App\User', 'id', 'assign_to_doctor');
+    }
+
     public function defaultPharmacy(){
       return $this->hasOne(DefaultUser::class, 'user_id')->with('assignedUser')->get();
     }
