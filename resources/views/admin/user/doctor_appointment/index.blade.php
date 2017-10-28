@@ -9,7 +9,7 @@
                         <div class="card">
                             <div class="header">
 
-                            @include('includes.flash')
+                                @include('includes.flash')
 
                                 @if(Auth::user()->user_type == 1)
                                 <a href="{{route('admin.docappoint_setting.create')}}" class="btn btn-info btn-fill pull-right">Add Appointment</a>
@@ -44,14 +44,28 @@
                                      <td>
                                         <!--<a href="{{ route('admin.medical_history.show',[$info->id]) }}" class="btn btn-xs btn-primary" title="View"><i class="mdi mdi-magnify"></i>View</a>-->
                                         <a href="{{ route('admin.docappoint_setting.show',[$info->id]) }}" class="btn btn-xs btn-primary" title="View"><i class="mdi mdi-magnify"></i>View</a>
+
+                                         <!-- <a href="{{ route('admin.docappoint_setting.cancel',[$info->id]) }}" class="btn btn-xs btn-primary" title="Cancel"><i class="mdi mdi-magnify"></i>Cancel Appointment</a> -->
                                         <!-- <a href="{{ route('admin.medical_history.edit',[$info->id]) }}" class="btn btn-xs btn-info" title="Edit">Edit<i class="mdi mdi-pencil"></i></a>
+                                         -->
                                         {!! Form::open(array(
                                         'style' => 'display: inline-block;',
-                                        'method' => 'DELETE',
+                                        'method' => 'POST',
                                         'onsubmit' => "return confirm('".trans("Are you Sure ?")."');",
-                                        'route' => ['admin.medical_history.destroy', $info->id])) !!}
-                                        <button type="submit" class="btn btn-xs btn-danger" title="Delete"><i class="mdi mdi-delete">Delete</i></button>
-                                        {!! Form::close() !!}    -->                                     
+                                        'route' => ['admin.docappoint_setting.cancel', $info->id])) !!}
+
+                                        <input type="hidden" name="cancel_booking" value="{{$info['users']->id}}">
+
+                                        <input type="hidden" name="appointment_id" value="{{$info->appointment_id}}">
+                                        
+                                        @if($info['checkcancelStatus'])
+                                        <span class="btn btn-xs btn-danger" style="background-color: red;color: white;">Cancelled by You</span>
+
+                                        @else
+                                        <button type="submit" class="btn btn-xs btn-danger" title="Delete"><i class="mdi mdi-delete">Cancel Appointment</i></button>
+
+                                        @endif
+                                        {!! Form::close() !!}                                         
                                     </td>
                                 </tr>
                             @endforeach

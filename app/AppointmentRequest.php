@@ -20,4 +20,8 @@ class AppointmentRequest extends Model
     {
     	return $this->hasOne(DoctorPrescription::class, 'appointment_id', 'appointment_id');
     }
+
+    public function checkcancelStatus(){
+        return $this->hasOne(CancelAppointment::class, 'appointment_id', 'appointment_id');
+    }
 }

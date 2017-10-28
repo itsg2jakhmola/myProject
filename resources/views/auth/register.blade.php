@@ -33,11 +33,11 @@
       
 
       <div class="form-group">
-        <input type="text" name="last_name" class="form-control" placeholder="Patient Last Name">
+        <input type="text" name="last_name" class="form-control" placeholder=" Last Name">
       </div>  
 
       <div class="form-group">
-        <input type="text" name="first_name" class="form-control" placeholder="Patient First Name">
+        <input type="text" name="first_name" class="form-control" placeholder=" First Name">
         @if ($errors->has('first_name'))
             <span class="help-block">
                 <strong>{{ $errors->first('first_name') }}</strong>
@@ -46,7 +46,7 @@
       </div>
 
       <div class="form-group">
-        <input type="text" name="middle_name" class="form-control" placeholder="Pharmist Middle Name">
+        <input type="text" name="middle_name" class="form-control" placeholder=" Middle Name">
         @if ($errors->has('middle_name'))
             <span class="help-block">
                 <strong>{{ $errors->first('middle_name') }}</strong>
@@ -211,11 +211,11 @@
       </div> -->
 
       <div class="form-group">
-        <input type="text" name="last_name" class="form-control" placeholder="Doctor Last Name">
+        <input type="text" name="last_name" class="form-control" placeholder=" Last Name">
       </div>
 
       <div class="form-group">
-        <input type="text" name="first_name" class="form-control" placeholder="Doctor First Name">
+        <input type="text" name="first_name" class="form-control" placeholder=" First Name">
         @if ($errors->has('first_name'))
             <span class="help-block">
                 <strong>{{ $errors->first('first_name') }}</strong>
@@ -225,7 +225,7 @@
  
 
       <div class="form-group">
-        <input type="text" name="middle_name" class="form-control" placeholder="Pharmist Middle Name">
+        <input type="text" name="middle_name" class="form-control" placeholder=" Middle Name">
         @if ($errors->has('middle_name'))
             <span class="help-block">
                 <strong>{{ $errors->first('middle_name') }}</strong>
@@ -263,7 +263,7 @@
         <input type="text" name="dob" class="form-control" placeholder="Date of Birth">
       </div> -->
       <div class="form-group">
-        <input type="text" name="doctor_practice" required class="form-control" placeholder="Name of Doctor Practice">
+        <input type="text" name="doctor_practice" required class="form-control" placeholder="Name of Practice">
       </div>
       <div class="form-group">
         <input type="text" name="address" id="doctor_address" class="form-control" placeholder="Address">
@@ -308,12 +308,12 @@
       </div> -->
 
       <div class="form-group">
-        <input type="text" name="last_name" class="form-control" placeholder="Pharmist Last Name">
+        <input type="text" name="last_name" class="form-control" placeholder=" Last Name">
       </div>  
       
 
       <div class="form-group">
-        <input type="text" name="first_name" class="form-control" placeholder="Pharmist First Name">
+        <input type="text" name="first_name" class="form-control" placeholder=" First Name">
         @if ($errors->has('first_name'))
             <span class="help-block">
                 <strong>{{ $errors->first('first_name') }}</strong>
@@ -322,7 +322,7 @@
       </div>
 
       <div class="form-group">
-        <input type="text" name="middle_name" class="form-control" placeholder="Pharmist Middle Name">
+        <input type="text" name="middle_name" class="form-control" placeholder=" Middle Name">
         @if ($errors->has('middle_name'))
             <span class="help-block">
                 <strong>{{ $errors->first('middle_name') }}</strong>

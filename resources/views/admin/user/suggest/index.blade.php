@@ -17,8 +17,7 @@
                             </div>
                             <div class="content table-responsive table-full-width">
 
-                              <!-- <form class="form-horizontal" enctype="multipart/form-data" role="form" method="POST" action="{{ route('admin.find_user.updateCreate', ['id'=> $userInfo->id]) }}"> -->
-
+                             
                               <form class="form-horizontal" enctype="multipart/form-data" role="form" method="get" action="{{ route('admin.user.view_detail') }}">
 
                                 <div class="input-group">
@@ -93,15 +92,15 @@
                              <div>
                              
                              <div>  
-                               Current Active Default Doctor
-
-                              <span class="active"> {{$doctorInfo->name}} </span>
+                               Current Active Default Doctor :
+                               
+                              <span class="active"> <b>{{  $doctorInfo ? $doctorInfo->name : 'Oh snap! Currently no user is assgined as default'}}</b> </span>
                             </div>
 
                             <div>
-                               Current Active Default Pharmist
+                               Current Active Default Pharmist :
 
-                               <span class="active">{{$pharmistInfo->name}} </span>
+                               <span class="active"> <b>{{ $pharmistInfo ? $pharmistInfo->name : 'Oh snap! Currently no user is assgined as default'}}</b> </span>
                             </div>
 
                              </div> 

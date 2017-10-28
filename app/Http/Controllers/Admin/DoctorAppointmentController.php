@@ -10,6 +10,7 @@ use App\Notification;
 use App\AppointmentRequest;
 use App\DoctorPrescription;
 use App\Http\Requests;
+use App\CancelAppointment;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\Traits\EmailTrait;
 
@@ -25,8 +26,7 @@ class DoctorAppointmentController extends Controller
     {
         $auth = Auth::user();
 
-        $appointment_list = AppointmentRequest::where('assign_to', $auth->id)->orderBy('created_at', 'DESC')->get()->load('users');
-
+        $appointment_list = AppointmentRequest::where('assign_to', $auth->id)->orderBy('created_at', 'DESC')->get()->load('users', 'checkcancelStatus');
 
         return view('admin.user.doctor_appointment.index', compact('appointment_list'));
     }
@@ -209,5 +209,16 @@ class DoctorAppointmentController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function cancel(Request $request, $id){
+        
+        CancelAppointment::create([
+            'appointment_id' => $request->appointment_id,
+            'patient_id' => $request->cancel_booking,
+            'cancel_by' => Auth::user()->id
+        ]);
+
+        return redirect()->back()->with('status', 'Booking cancel successfully');
     }
 }

@@ -21,8 +21,14 @@ class FindUserController extends Controller
         $auth = Auth::user();
 
         $userInfo = DefaultUser::where('user_id', $auth->id)->first();
-        $doctorInfo = $auth->find($userInfo->assign_to_doctor);
-        $pharmistInfo = $auth->find($userInfo->assign_to_pharmist);
+        
+        if($userInfo){
+            $doctorInfo = $auth->find($userInfo->assign_to_doctor);
+            $pharmistInfo = $auth->find($userInfo->assign_to_pharmist);    
+        }else{
+            $doctorInfo = null;
+            $pharmistInfo = null;
+        }
         
         return view('admin.user.suggest.index', compact('userInfo', 'doctorInfo', 'pharmistInfo'));
     }

@@ -90,6 +90,9 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function()
 
     Route::resource('appointment_setting', 'Admin\MyAppointmentController');
     Route::resource('docappoint_setting', 'Admin\DoctorAppointmentController');
+    
+    Route::post('docappoint_setting/cancel/{id}', ['as' => 'admin.docappoint_setting.cancel', 'uses'=> 'Admin\DoctorAppointmentController@cancel']);
+
     Route::resource('pharmist_setting', 'Admin\PharmacyController');
     Route::post('update/format', ['uses' =>'Admin\DoctorAppointmentController@format', 'as' => 'admin.docappoint_setting.format']);
 
