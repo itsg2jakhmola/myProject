@@ -1,8 +1,0 @@
-[16-Sep-2017 07:18:22 America/Chicago] PHP Fatal error:  Interface 'League\Flysystem\PluginInterface' not found in /home/rvsclass/public_html/medcrip/vendor_original/league/flysystem/src/Plugin/AbstractPlugin.php on line 9
-[16-Sep-2017 07:18:22 America/Chicago] PHP Fatal error:  Class 'League\Flysystem\Plugin\AbstractPlugin' not found in /home/rvsclass/public_html/medcrip/vendor_original/league/flysystem/src/Plugin/EmptyDir.php on line 6
-[16-Sep-2017 07:18:23 America/Chicago] PHP Fatal error:  Class 'League\Flysystem\Plugin\AbstractPlugin' not found in /home/rvsclass/public_html/medcrip/vendor_original/league/flysystem/src/Plugin/ForcedCopy.php on line 8
-[16-Sep-2017 07:18:23 America/Chicago] PHP Fatal error:  Class 'League\Flysystem\Plugin\AbstractPlugin' not found in /home/rvsclass/public_html/medcrip/vendor_original/league/flysystem/src/Plugin/ForcedRename.php on line 8
-[16-Sep-2017 07:18:24 America/Chicago] PHP Fatal error:  Class 'League\Flysystem\Plugin\AbstractPlugin' not found in /home/rvsclass/public_html/medcrip/vendor_original/league/flysystem/src/Plugin/GetWithMetadata.php on line 8
-[16-Sep-2017 07:18:24 America/Chicago] PHP Fatal error:  Class 'League\Flysystem\Plugin\AbstractPlugin' not found in /home/rvsclass/public_html/medcrip/vendor_original/league/flysystem/src/Plugin/ListFiles.php on line 6
-[16-Sep-2017 07:18:25 America/Chicago] PHP Fatal error:  Class 'League\Flysystem\Plugin\AbstractPlugin' not found in /home/rvsclass/public_html/medcrip/vendor_original/league/flysystem/src/Plugin/ListPaths.php on line 6
-[16-Sep-2017 07:18:25 America/Chicago] PHP Fatal error:  Class 'League\Flysystem\Plugin\AbstractPlugin' not found in /home/rvsclass/public_html/medcrip/vendor_original/league/flysystem/src/Plugin/ListWith.php on line 6

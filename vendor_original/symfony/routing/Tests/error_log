@@ -1,7 +1,0 @@
-[16-Sep-2017 06:29:24 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/routing/Tests/CompiledRouteTest.php on line 17
-[16-Sep-2017 06:29:25 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/routing/Tests/RequestContextTest.php on line 18
-[16-Sep-2017 06:29:27 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/routing/Tests/RouteCollectionBuilderTest.php on line 20
-[16-Sep-2017 06:29:28 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/routing/Tests/RouteCollectionTest.php on line 19
-[16-Sep-2017 06:29:28 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/routing/Tests/RouteCompilerTest.php on line 17
-[16-Sep-2017 06:29:29 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/routing/Tests/RouteTest.php on line 17
-[16-Sep-2017 06:29:29 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/routing/Tests/RouterTest.php on line 18

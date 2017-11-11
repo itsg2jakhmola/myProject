@@ -1,1 +1,0 @@
-[16-Sep-2017 07:40:34 America/Chicago] PHP Fatal error:  Interface 'Prophecy\Exception\Exception' not found in /home/rvsclass/public_html/medcrip/vendor/phpspec/prophecy/src/Prophecy/Exception/InvalidArgumentException.php on line 15

@@ -1,5 +1,0 @@
-[16-Sep-2017 05:52:30 America/Chicago] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/yaml/Tests/DumperTest.php on line 20
-[16-Sep-2017 05:52:31 America/Chicago] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/yaml/Tests/InlineTest.php on line 20
-[16-Sep-2017 05:52:31 America/Chicago] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/yaml/Tests/ParseExceptionTest.php on line 18
-[16-Sep-2017 05:52:32 America/Chicago] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/yaml/Tests/ParserTest.php on line 21
-[16-Sep-2017 05:52:33 America/Chicago] PHP Fatal error:  Class 'PHPUnit\Framework\TestCase' not found in /home/rvsclass/public_html/medcrip/vendor/symfony/yaml/Tests/YamlTest.php on line 18

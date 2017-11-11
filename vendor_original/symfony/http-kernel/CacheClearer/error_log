@@ -1,1 +1,0 @@
-[16-Sep-2017 06:27:59 America/Chicago] PHP Fatal error:  Interface 'Symfony\Component\HttpKernel\CacheClearer\CacheClearerInterface' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/http-kernel/CacheClearer/ChainCacheClearer.php on line 20

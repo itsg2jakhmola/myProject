@@ -1,4 +1,0 @@
-[16-Sep-2017 07:40:39 America/Chicago] PHP Fatal error:  Interface 'Prophecy\Prediction\PredictionInterface' not found in /home/rvsclass/public_html/medcrip/vendor/phpspec/prophecy/src/Prophecy/Prediction/CallPrediction.php on line 28
-[16-Sep-2017 07:40:40 America/Chicago] PHP Fatal error:  Interface 'Prophecy\Prediction\PredictionInterface' not found in /home/rvsclass/public_html/medcrip/vendor/phpspec/prophecy/src/Prophecy/Prediction/CallTimesPrediction.php on line 29
-[16-Sep-2017 07:40:41 America/Chicago] PHP Fatal error:  Interface 'Prophecy\Prediction\PredictionInterface' not found in /home/rvsclass/public_html/medcrip/vendor/phpspec/prophecy/src/Prophecy/Prediction/CallbackPrediction.php on line 26
-[16-Sep-2017 07:40:41 America/Chicago] PHP Fatal error:  Interface 'Prophecy\Prediction\PredictionInterface' not found in /home/rvsclass/public_html/medcrip/vendor/phpspec/prophecy/src/Prophecy/Prediction/NoCallsPrediction.php on line 26

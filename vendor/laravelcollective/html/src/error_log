@@ -1,5 +1,0 @@
-[16-Sep-2017 05:39:36 America/Chicago] PHP Fatal error:  Trait 'Illuminate\Support\Traits\Macroable' not found in /home/rvsclass/public_html/medcrip/vendor/laravelcollective/html/src/FormBuilder.php on line 17
-[16-Sep-2017 05:39:40 America/Chicago] PHP Fatal error:  Class 'Illuminate\Support\Facades\Facade' not found in /home/rvsclass/public_html/medcrip/vendor/laravelcollective/html/src/FormFacade.php on line 11
-[16-Sep-2017 05:39:44 America/Chicago] PHP Fatal error:  Trait 'Illuminate\Support\Traits\Macroable' not found in /home/rvsclass/public_html/medcrip/vendor/laravelcollective/html/src/HtmlBuilder.php on line 13
-[16-Sep-2017 05:39:50 America/Chicago] PHP Fatal error:  Class 'Illuminate\Support\Facades\Facade' not found in /home/rvsclass/public_html/medcrip/vendor/laravelcollective/html/src/HtmlFacade.php on line 11
-[16-Sep-2017 05:39:54 America/Chicago] PHP Fatal error:  Class 'Illuminate\Support\ServiceProvider' not found in /home/rvsclass/public_html/medcrip/vendor/laravelcollective/html/src/HtmlServiceProvider.php on line 8

@@ -1,6 +1,0 @@
-[16-Sep-2017 07:21:35 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/rvsclass/public_html/medcrip/vendor_original/phpunit/phpunit/src/Extensions/GroupTestSuite.php on line 27
-[16-Sep-2017 07:21:36 America/Chicago] PHP Fatal error:  Interface 'PHPUnit_Framework_Test' not found in /home/rvsclass/public_html/medcrip/vendor_original/phpunit/phpunit/src/Extensions/PhptTestCase.php on line 16
-[16-Sep-2017 07:21:37 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestSuite' not found in /home/rvsclass/public_html/medcrip/vendor_original/phpunit/phpunit/src/Extensions/PhptTestSuite.php on line 17
-[16-Sep-2017 07:21:37 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Extensions_TestDecorator' not found in /home/rvsclass/public_html/medcrip/vendor_original/phpunit/phpunit/src/Extensions/RepeatedTest.php on line 17
-[16-Sep-2017 07:21:37 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_Assert' not found in /home/rvsclass/public_html/medcrip/vendor_original/phpunit/phpunit/src/Extensions/TestDecorator.php on line 20
-[16-Sep-2017 07:21:38 America/Chicago] PHP Fatal error:  Interface 'PHPUnit_Framework_TestListener' not found in /home/rvsclass/public_html/medcrip/vendor_original/phpunit/phpunit/src/Extensions/TicketListener.php on line 17

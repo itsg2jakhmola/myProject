@@ -28,7 +28,36 @@ $api->version('v1', function($api){
 
 });
 
-$api->version('v1', ['middleware' => 'api.auth'], function($api){
+Route::group(['prefix' => 'api/v1'], function()
+{
+
+    Route::get('auth/user', 'Api\ApiUserController@getAuthUser');
+    
+    Route::get('auth/getappointment/{id}', 'Api\ApiUserAppointmentController@getAppointment');
+    
+    Route::get('auth/showappointment/{id}', 'Api\ApiUserAppointmentController@showAppointment');
+    
+    Route::post('add/appointment/{id}', 'Api\ApiUserAppointmentController@apiAddAppointment');
+
+    Route::get('edit/appointment/{id}', 'Api\ApiUserAppointmentController@editAppointment');
+    
+    Route::patch('update/appointment/{id}', 'Api\ApiUserAppointmentController@updateAppointment');
+
+    Route::delete('remove/appointment/{id}', 'Api\ApiMedicalhistoryController@removeAppointment');
+
+    Route::post('add/medicalhistory', 'Api\ApiMedicalhistoryController@createMedicalHistory');
+   
+    Route::get('show/medical/{id}', 'Api\ApiMedicalhistoryController@showMedicalHistory');
+
+    Route::get('edit/editmedical/{id}', 'Api\ApiMedicalhistoryController@editMedicalHistory');
+    
+    Route::delete('remove/medical/{id}', 'Api\ApiMedicalhistoryController@removeMedicalHistory');
+
+    Route::post('update/medicalhistory/{id}', 'Api\ApiMedicalhistoryController@updateMedicalHistory');
+
+});
+
+/*$api->version('v1', ['middleware' => 'api.auth'], function($api){
     
     $api->get('auth/user', 'App\Http\Controllers\Api\ApiUserController@getAuthUser');
     
@@ -54,7 +83,7 @@ $api->version('v1', ['middleware' => 'api.auth'], function($api){
 
     $api->post('update/medicalhistory/{id}', 'App\Http\Controllers\Api\ApiMedicalhistoryController@updateMedicalHistory');
 
-});
+});*/
 
 /* End Dingo API */
 
@@ -146,3 +175,7 @@ Route::get('/home', 'HomeController@index');
 Route::get('/admins', function(){
         return view('admin.index');
     });
+
+Route::get('resizeImage', 'ImageController@resizeImage');
+
+Route::post('resizeImagePost',['as'=>'resizeImagePost','uses'=>'ImageController@resizeImagePost']);

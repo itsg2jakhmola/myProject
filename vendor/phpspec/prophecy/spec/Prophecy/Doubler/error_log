@@ -1,3 +1,0 @@
-[16-Sep-2017 07:40:12 America/Chicago] PHP Fatal error:  Class 'PhpSpec\ObjectBehavior' not found in /home/rvsclass/public_html/medcrip/vendor/phpspec/prophecy/spec/Prophecy/Doubler/DoublerSpec.php on line 13
-[16-Sep-2017 07:40:13 America/Chicago] PHP Fatal error:  Class 'PhpSpec\ObjectBehavior' not found in /home/rvsclass/public_html/medcrip/vendor/phpspec/prophecy/spec/Prophecy/Doubler/LazyDoubleSpec.php on line 10
-[16-Sep-2017 07:40:14 America/Chicago] PHP Fatal error:  Class 'PhpSpec\ObjectBehavior' not found in /home/rvsclass/public_html/medcrip/vendor/phpspec/prophecy/spec/Prophecy/Doubler/NameGeneratorSpec.php on line 8

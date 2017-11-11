@@ -1,3 +1,0 @@
-[16-Sep-2017 06:27:12 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/dom-crawler/Tests/CrawlerTest.php on line 17
-[16-Sep-2017 06:27:12 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/dom-crawler/Tests/FormTest.php on line 18
-[16-Sep-2017 06:27:13 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/dom-crawler/Tests/LinkTest.php on line 17

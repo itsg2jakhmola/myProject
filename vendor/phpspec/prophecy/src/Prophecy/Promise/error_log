@@ -1,4 +1,0 @@
-[16-Sep-2017 07:40:42 America/Chicago] PHP Fatal error:  Interface 'Prophecy\Promise\PromiseInterface' not found in /home/rvsclass/public_html/medcrip/vendor/phpspec/prophecy/src/Prophecy/Promise/CallbackPromise.php on line 25
-[16-Sep-2017 07:40:44 America/Chicago] PHP Fatal error:  Interface 'Prophecy\Promise\PromiseInterface' not found in /home/rvsclass/public_html/medcrip/vendor/phpspec/prophecy/src/Prophecy/Promise/ReturnArgumentPromise.php on line 24
-[16-Sep-2017 07:40:44 America/Chicago] PHP Fatal error:  Interface 'Prophecy\Promise\PromiseInterface' not found in /home/rvsclass/public_html/medcrip/vendor/phpspec/prophecy/src/Prophecy/Promise/ReturnPromise.php on line 23
-[16-Sep-2017 07:40:45 America/Chicago] PHP Fatal error:  Interface 'Prophecy\Promise\PromiseInterface' not found in /home/rvsclass/public_html/medcrip/vendor/phpspec/prophecy/src/Prophecy/Promise/ThrowPromise.php on line 26

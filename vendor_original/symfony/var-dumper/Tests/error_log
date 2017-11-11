@@ -1,3 +1,0 @@
-[16-Sep-2017 06:30:16 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/var-dumper/Tests/CliDumperTest.php on line 22
-[16-Sep-2017 06:30:17 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/var-dumper/Tests/HtmlDumperTest.php on line 21
-[16-Sep-2017 06:30:17 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home/rvsclass/public_html/medcrip/vendor_original/symfony/var-dumper/Tests/VarClonerTest.php on line 20
