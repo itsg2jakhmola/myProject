@@ -72,6 +72,8 @@ class AuthController extends Controller
     protected function create(array $data)
     {
         
+        $encryptPwd = $data['password'];
+
         $user =  User::create([
             'first_name' => $data['first_name'],
             'last_name' => $data['last_name'],
@@ -83,14 +85,14 @@ class AuthController extends Controller
             'medical_number' => ($data['medical_number']) ? $data['medical_number'] : '',
             'address' => $data['address'],
             'phone_number' => $data['phone_number'],
-            'doctor_practice' => $data['doctor_practice'],
+            'doctor_practice' => ($data['doctor_practice']) ? $data['doctor_practice'] : 'NULL',
             'fax_number' => ($data['fax_number']) ? $data['fax_number'] : '',
             'lat' => $data['lat'],
             'lng' => $data['lng'],
             'insurance_company' => ($data['insurance_company']) ? $data['insurance_company'] : '' ,
             'insurance_number' => ($data['insurance_number']) ? $data['insurance_number'] : '' ,
             'practice_licence' => ($data['doctor_practice']) ? $data['doctor_practice'] : '' ,
-            'password' => bcrypt($data['password']),
+            'password' => bcrypt($encryptPwd),
             
         ]);
 
@@ -99,7 +101,7 @@ class AuthController extends Controller
 
         $subject = 'MedCrip Application login credentials';
 
-        $this->sendEmail('auth.emails.application_accepted', ["full_name" => $data['first_name'], "username" => $data['email'], "password" => $data['password']], $subject, $data['email'], $this->_fromName);
+        $this->sendEmail('auth.emails.application_accepted', ["full_name" => $data['first_name'], "username" => $data['email'], "password" => $encryptPwd], $subject, $data['email'], $this->_fromName);
 
         return $user;
         

@@ -23,6 +23,7 @@ class FindUserController extends Controller
         $userInfo = DefaultUser::where('user_id', $auth->id)->first();
         
         if($userInfo){
+            $patientInfo = $auth->find($userInfo->assign_to_patient);
             $doctorInfo = $auth->find($userInfo->assign_to_doctor);
             $pharmistInfo = $auth->find($userInfo->assign_to_pharmist);    
         }else{
@@ -30,7 +31,7 @@ class FindUserController extends Controller
             $pharmistInfo = null;
         }
         
-        return view('admin.user.suggest.index', compact('userInfo', 'doctorInfo', 'pharmistInfo'));
+        return view('admin.user.suggest.index', compact('userInfo', 'doctorInfo', 'pharmistInfo', 'patientInfo'));
     }
 
     /**
@@ -100,7 +101,11 @@ class FindUserController extends Controller
                 'email'     => 'required_without_all:email,phone',
                 'phone'  => 'required_without_all:email,phone',
             ]);*/
-
+        if($request->user_type == 1){
+                 $user = User::where('email', $request->email)
+                                ->orWhere('phone_number', $request->phone)
+                                ->first();
+        }
         if($request->user_type == 2){
                  $user = User::where('email', $request->email)
                                 ->orWhere('phone_number', $request->phone)
@@ -110,13 +115,17 @@ class FindUserController extends Controller
                                 ->orWhere('phone_number', $request->phone)
                                 ->first();
         }
-
+        
             $checkUser = DefaultUser::firstOrNew([
                 'user_id' => Auth::user()->id
             ]);
             
          $checkUser->user_id = Auth::user()->id;
-         if($user->user_type == 2){
+
+         if($user->user_type == 1){
+             $checkUser->assign_to_patient = $user->id;
+            }
+         else if($user->user_type == 2){
              $checkUser->assign_to_doctor = $user->id;
             }
             else if($user->user_type == 3){
@@ -149,14 +158,32 @@ class FindUserController extends Controller
                 'address'  => 'required_without_all:email,phone,doctor_practice,address',
             ]);
 
-    if($request->input('email')){
+    if(!empty($request->all() ) ){
+        $querry = User::orderBy('id');
+
+        if(!empty($request->doctor_practice)){
+            $querry->where('doctor_practice',$request->doctor_practice);
+        }
+        if(!empty($request->phone)){
+            $querry->where('phone_number',$request->phone);
+        }
+        if(!empty($request->email)){
+            $querry->where('email',$request->email);
+        }
+        if(!empty($request->address)){
+            $querry->where('address',$request->address);
+        }
+
+    $userDetail  = $querry->first();    
+    //dd($userDetail);
+    /*if($request->input('email')){
         $email = $request->input('email');
      }else{
         $email = null;
      }
 
-     if($request->input('phone_number')){
-        $phone = $request->input('phone_number');
+     if($request->input('phone')){
+        $phone = $request->input('phone');
      }else{
         $phone = null;
      } 
@@ -178,13 +205,20 @@ class FindUserController extends Controller
             $query->orwhere('phone_number',  $phone)
                   ->orwhere('doctor_practice',  $doctor_practice)
                   ->orwhere('address', $address);
-        })->first();
-            
+        })->first();*/
+                
+        if(!$userDetail){
+            echo "Not found Please try again!";exit;
+        }
+
+
        /* $userDetail = \DB::select("select * from `users` where (`email` = '".$request->input('email'). "' AND `phone_number` =  '".$request->input('phone_number')"') OR (`phone_number` =  '".$request->input('phone_number'). "' or `doctor_practice` = '".$request->input('doctor_practice')."' or `address` = '".$request->input('address')."') LIMIT 1");
 
         dd($userDetail);*/
         //echo $userDetail->toSql();
 
         return view('admin.user.suggest.show', compact('userDetail'));
+      }
+    
     }
 }

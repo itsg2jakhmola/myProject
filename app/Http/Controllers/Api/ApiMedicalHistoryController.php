@@ -14,7 +14,6 @@ class ApiMedicalHistoryController extends Controller
     		$validator = \Validator::make($request->all(), [
     				'name' => 'required',
     				'description' => 'required',
-    				'medical_scan' => 'required| mimes:jpeg,jpg,png,gif',
     				'medical_scan_dt' => 'required',
     			]);
 
@@ -22,17 +21,17 @@ class ApiMedicalHistoryController extends Controller
     			return response()->json($validator->messages(), 401);
     		}
 
-    		 if( $request->hasFile('medical_scan') ) {
+    		 if( $request->input('medical_scan') ) {
 
-                $medical_scan = $request->file('medical_scan');
+                $medical_scan = $request->input('medical_scan');
 
-                $fileName = time() . '_' . $medical_scan->getClientOriginalName();
+                $fileName = time() . '_' . "mobileUpload";
 
-                $destination = public_path() . '/images/medicalhistory/';
-                $medical_scan->move($destination, $fileName);
+                $medical_scan = \Image::make($request->input('medical_scan'))->save(public_path()."/images/medicalhistory/".$fileName );
 
                 $medicalHistory = new Medicalhistory;
                 $medicalHistory->fill($request->all());
+                $medicalHistory->user_id = $request->input('user_id');
                 $medicalHistory->medical_scan = $fileName;
                 $medicalHistory->name    = $request->input('name');
                 $medicalHistory->description = $request->input('description');
@@ -48,6 +47,17 @@ class ApiMedicalHistoryController extends Controller
     {
     	$medical_detail = Medicalhistory::where('id', $id)->first();
      	return response()->json(compact('medical_detail'));   
+    }
+
+    public function showAllMedicalHistory($user_id){
+        
+       $medical_detail = Medicalhistory::orderBy('created_at', 'DESC')
+                        ->where('user_id', $user_id)
+                        ->get();
+
+       
+       return response()->json(compact('medical_detail')); 
+        
     }
 
     public function editMedicalHistory($id)
@@ -91,15 +101,16 @@ class ApiMedicalHistoryController extends Controller
             $medical_history->medical_scan_dt = $request->input('medical_scan_dt'); 
             $medical_history->save();
             
-            if ($request->hasFile('medical_scan')) {
-                $medical_scan = $request->file('medical_scan');
+            if( $request->input('medical_scan') ) {
 
-                $fileName = time() . '_' . $medical_scan->getClientOriginalName();
+                $medical_scan = $request->input('medical_scan');
 
-                $destination = public_path() . '/images/medicalhistory/';
-                $medical_scan->move($destination, $fileName);
+                $fileName = time() . '_' . "mobileUpload";
+
+                $medical_scan = \Image::make($request->input('medical_scan'))->save(public_path()."/images/medicalhistory/".$fileName );
 
                 $medical_history->medical_scan = $fileName;
+                $medical_history->user_id = $request->input('user_id');
                 $medical_history->medical_scan_path = '/images/medicalhistory/' . $fileName;
                 
                 $medical_history->save();

@@ -66,7 +66,7 @@ class PharmacyController extends Controller
         $pharmaTracking = PharmaTracking::firstOrNew([
                'appointment_id' => $request->appointment_id 
         ]);   
-
+        
         $pharmaTracking->appointment_id =  $request->appointment_id;
         $pharmaTracking->doctor_id =  $request->doctor_id;
         $pharmaTracking->patient_id =  $request->patient_id;

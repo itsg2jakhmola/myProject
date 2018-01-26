@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Medicalhistory;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Auth;
 
 class MedicalHistoryController extends Controller
 {
@@ -31,7 +32,8 @@ class MedicalHistoryController extends Controller
      */
     public function index()
     {
-        $medical_detail = Medicalhistory::orderBy('created_at', 'DESC')->get();
+        $medical_detail = Medicalhistory::orderBy('created_at', 'DESC')
+                        ->where('user_id', Auth::user()->id)->get();
         return view('admin.user.medical_history', compact('medical_detail'));    
         
     }
@@ -75,6 +77,7 @@ class MedicalHistoryController extends Controller
                 $medicalHistory = new Medicalhistory;
                 $medicalHistory->fill($request->all());
                 $medicalHistory->medical_scan = $fileName;
+                $medicalHistory->user_id = Auth::user()->id;
                 $medicalHistory->name    = $request->input('name');
                 $medicalHistory->description = $request->input('description');
                 $medicalHistory->medical_scan_path = '/images/medicalhistory/' . $fileName;

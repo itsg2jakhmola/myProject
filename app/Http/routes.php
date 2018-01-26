@@ -19,10 +19,16 @@ $api->version('v1', function($api){
     $api->get('testing', function(){
         return "Hello";
     });
+
+    $api->get('image/intervention', function(){
+
+
+    });
 });
 
 $api->version('v1', function($api){
     $api->get('testmethod', 'App\Http\Controllers\Api\ApiUserController@index');
+    $api->get('interven', 'App\Http\Controllers\Api\ApiUserController@showInter');
     $api->post('auth/login', 'App\Http\Controllers\Api\ApiUserController@login');
     $api->post('auth/register', 'App\Http\Controllers\Api\ApiUserController@register');
 
@@ -31,9 +37,10 @@ $api->version('v1', function($api){
 Route::group(['prefix' => 'api/v1'], function()
 {
 
-    Route::get('auth/user', 'Api\ApiUserController@getAuthUser');
+   Route::get('auth/user', 'Api\ApiUserController@getAuthUser');
+    Route::get('auth/currentuser/{user_id}', 'Api\ApiUserController@getCurrentUser');
     
-    Route::get('auth/getappointment/{id}', 'Api\ApiUserAppointmentController@getAppointment');
+    Route::get('get/all/appointment/list/user_id/{user_id}', 'Api\ApiUserAppointmentController@getAppointment');
     
     Route::get('auth/showappointment/{id}', 'Api\ApiUserAppointmentController@showAppointment');
     
@@ -41,19 +48,51 @@ Route::group(['prefix' => 'api/v1'], function()
 
     Route::get('edit/appointment/{id}', 'Api\ApiUserAppointmentController@editAppointment');
     
-    Route::patch('update/appointment/{id}', 'Api\ApiUserAppointmentController@updateAppointment');
+    Route::post('update/appointment/{id}', 'Api\ApiUserAppointmentController@updateAppointment');
 
-    Route::delete('remove/appointment/{id}', 'Api\ApiMedicalhistoryController@removeAppointment');
+    Route::post('remove/appointment/{id}', 'Api\ApiUserAppointmentController@removeAppointment');
 
-    Route::post('add/medicalhistory', 'Api\ApiMedicalhistoryController@createMedicalHistory');
+    Route::post('add/medicalhistory', 'Api\ApiMedicalHistoryController@createMedicalHistory');
    
-    Route::get('show/medical/{id}', 'Api\ApiMedicalhistoryController@showMedicalHistory');
+   Route::get('show/all/medicalhistory/user_id/{user_id}', 'Api\ApiMedicalHistoryController@showAllMedicalHistory');
 
-    Route::get('edit/editmedical/{id}', 'Api\ApiMedicalhistoryController@editMedicalHistory');
+    Route::get('show/medical/{id}', 'Api\ApiMedicalHistoryController@showMedicalHistory');
+
+    Route::get('edit/editmedical/{id}', 'Api\ApiMedicalHistoryController@editMedicalHistory');
     
-    Route::delete('remove/medical/{id}', 'Api\ApiMedicalhistoryController@removeMedicalHistory');
+    Route::post('remove/medical/{id}', 'Api\ApiMedicalHistoryController@removeMedicalHistory');
 
-    Route::post('update/medicalhistory/{id}', 'Api\ApiMedicalhistoryController@updateMedicalHistory');
+    Route::post('update/medicalhistory/{id}', 'Api\ApiMedicalHistoryController@updateMedicalHistory');
+
+    Route::get('show/prescription/{user_id}/type/{user_type}', 'Api\ApiUserPrescriptionController@show');
+
+    Route::get('show/prescription/detail/{id}', 'Api\ApiUserPrescriptionController@showById');
+
+    Route::post('update/prescription/detail/user_id/{user_id}/id/{id}', 'Api\ApiUserPrescriptionController@update');
+
+    Route::post('user/update/{user_id}', 'Api\ApiUserController@update');
+
+    Route::get('find/user/{user_id}', 'Api\ApiFindUserController@index');
+
+    Route::post('find/user/by/param/{user_type}', 'Api\ApiFindUserController@showUser');
+
+    Route::post('set/defaultUser/{user_id}/{id?}', 'Api\ApiFindUserController@updateCreate');
+
+    Route::get('show/doctor/appointment/user_id/{user_id}', 'Api\ApiDoctorController@showDoctorAppointment');
+
+    Route::get('show/doctor/appointment_reminder/user_id/{user_id}', 'Api\ApiDoctorController@appointmentReminder');
+
+    Route::get('show/doctor/appointment/detail/id/{id}', 'Api\ApiDoctorController@showDoctorAppointmentById');
+
+    Route::post('doctor/update/user_id/{user_id}/appointment/{appointment_id}/{id?}', 'Api\ApiDoctorController@updateCreate');
+
+    Route::post('doctor/appointment/cancel/appointment_id/{appointment_id}/user_id/{id}', 'Api\ApiDoctorController@cancel');
+
+    Route::get('doctor/appointment/cancelation_list/user_id/{user_id}', 'Api\ApiDoctorController@cancelation_list');
+
+    Route::post('password/email', 'Api\ForgotPasswordController@sendResetLinkEmail');
+    
+    Route::post('password/reset', 'Api\ResetPasswordController@reset');
 
 });
 
@@ -179,3 +218,13 @@ Route::get('/admins', function(){
 Route::get('resizeImage', 'ImageController@resizeImage');
 
 Route::post('resizeImagePost',['as'=>'resizeImagePost','uses'=>'ImageController@resizeImagePost']);
+
+Route::get('console/command', function(){
+
+    $appointmentReminder = \DB::table('prescriptions')
+                        ->where('from_doctor', '35')
+                        ->whereNotNull('set_reminder')
+                        ->get();
+
+        dd($appointmentReminder);
+});

@@ -90,7 +90,7 @@
                             </form>
 
                              <div>
-                             
+                             @if(Auth::user()->user_type == 1) 
                              <div>  
                                Current Active Default Doctor :
                                
@@ -102,7 +102,13 @@
 
                                <span class="active"> <b>{{ $pharmistInfo ? $pharmistInfo->name : 'Oh snap! Currently no user is assgined as default'}}</b> </span>
                             </div>
-
+                            @else
+                            <div>  
+                               Current Active Default Patient :
+                               
+                              <span class="active"> <b>{{  $patientInfo ? $patientInfo->name : 'Oh snap! Currently no user is assgined as default'}}</b> </span>
+                            </div>
+                           @endif 
                              </div> 
 
                             </div>
