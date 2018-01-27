@@ -211,11 +211,11 @@
       </div> -->
 
       <div class="form-group">
-        <input type="text" name="last_name" class="form-control" placeholder=" Last Name">
+        <input type="hidden" name="last_name" class="form-control" placeholder=" Last Name">
       </div>
 
       <div class="form-group">
-        <input type="text" name="first_name" class="form-control" placeholder=" First Name">
+        <input type="text" name="first_name" class="form-control" placeholder="Name">
         @if ($errors->has('first_name'))
             <span class="help-block">
                 <strong>{{ $errors->first('first_name') }}</strong>
@@ -225,12 +225,7 @@
  
 
       <div class="form-group">
-        <input type="text" name="middle_name" class="form-control" placeholder=" Middle Name">
-        @if ($errors->has('middle_name'))
-            <span class="help-block">
-                <strong>{{ $errors->first('middle_name') }}</strong>
-            </span>
-        @endif
+        <input type="hidden" name="middle_name" class="form-control" placeholder=" Middle Name">
       </div>
 
       <div class="form-group">
@@ -308,12 +303,12 @@
       </div> -->
 
       <div class="form-group">
-        <input type="text" name="last_name" class="form-control" placeholder=" Last Name">
+        <input type="hidden" name="last_name" class="form-control" placeholder=" Last Name">
       </div>  
       
 
       <div class="form-group">
-        <input type="text" name="first_name" class="form-control" placeholder=" First Name">
+        <input type="text" name="first_name" class="form-control" placeholder="Name">
         @if ($errors->has('first_name'))
             <span class="help-block">
                 <strong>{{ $errors->first('first_name') }}</strong>
@@ -322,12 +317,7 @@
       </div>
 
       <div class="form-group">
-        <input type="text" name="middle_name" class="form-control" placeholder=" Middle Name">
-        @if ($errors->has('middle_name'))
-            <span class="help-block">
-                <strong>{{ $errors->first('middle_name') }}</strong>
-            </span>
-        @endif
+        <input type="hidden" name="middle_name" class="form-control" placeholder=" Middle Name">
       </div>
 
       <div class="form-group">

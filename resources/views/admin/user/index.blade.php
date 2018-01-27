@@ -26,7 +26,7 @@
                             <form class="form-horizontal" role="form" method="POST" action="{{ route('admin.user.update', ['user/update' => $user->id]) }}">
 
                             {{ csrf_field() }}
-
+                                @if(Auth::user()->user_type == 1)
 
                                      <div class="row">
                                         <div class="col-md-6">
@@ -36,6 +36,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                  
 
                                     <div class="row">
                                         <div class="col-md-6">
@@ -46,6 +47,7 @@
                                         </div>
                                     </div>
 
+                                 
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group">
@@ -55,7 +57,20 @@
                                         </div>
                                     </div>
 
+                                @endif    
 
+                                @if(Auth::user()->user_type == 2 || Auth::user()->user_type == 3)
+
+                                <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>Name</label>
+                                                <input type="text" name="name" class="form-control" placeholder="Name" value="{{$user->name}}">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                @endif
 
                                     @if(Auth::user()->user_type == 1)
                                     <div class="row">

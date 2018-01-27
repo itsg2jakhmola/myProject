@@ -152,6 +152,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function()
     //Route::get('/apppoinment', 'Admin\AppoinmentController@index');
     //Route::get('/prescription', 'Admin\PrescriptionController@index');
     Route::resource('medical_history', 'Admin\MedicalHistoryController');
+    Route::resource('alergic_history', 'Admin\AlergicHistoryController');
     Route::resource('find_user', 'Admin\FindUserController');
      Route::get('show/user/info/{email?}/{phone?}', ['uses' =>'Admin\FindUserController@showUser', 'as' => 'admin.user.view_detail']);
     Route::post('send/suggestedUser/{id?}', ['uses' =>'Admin\FindUserController@updateCreate', 'as' => 'admin.find_user.updateCreate']);

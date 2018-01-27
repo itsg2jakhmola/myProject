@@ -76,8 +76,8 @@ class AuthController extends Controller
 
         $user =  User::create([
             'first_name' => $data['first_name'],
-            'last_name' => $data['last_name'],
-            'middle_name' => $data['middle_name'],
+            'last_name' => ($data['last_name']) ? $data['last_name'] : '',
+            'middle_name' => ($data['middle_name']) ? $data['middle_name'] : '',
             'name' => $data['first_name'] . " " . $data['last_name'],
             'email' => $data['email'],
             'user_type' => $data['user_type'],
