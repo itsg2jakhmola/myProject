@@ -27,6 +27,7 @@ class FindUserController extends Controller
             $doctorInfo = $auth->find($userInfo->assign_to_doctor);
             $pharmistInfo = $auth->find($userInfo->assign_to_pharmist);    
         }else{
+            $patientInfo = null;
             $doctorInfo = null;
             $pharmistInfo = null;
         }
