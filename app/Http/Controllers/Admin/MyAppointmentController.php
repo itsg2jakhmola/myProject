@@ -108,7 +108,7 @@ class MyAppointmentController extends Controller
 
         $this->sendEmail('auth.emails.appointment_request', ["full_name" => $full_name, "patient" => $user->name], $subject, $nearby['assignedUser']->email, $this->_fromName);
 
-        return redirect()->route('admin.appointment_setting.index')->with('status', 'Your booking request has been sent to the ' . $nearby['assignedUser']->name);
+        return redirect()->route('admin.appointment_setting.index')->with('status', 'Your appointment request has been sent to your doctor ' . $nearby['assignedUser']->name);
     }
 
     /**

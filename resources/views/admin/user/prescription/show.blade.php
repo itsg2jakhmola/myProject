@@ -15,6 +15,25 @@
             <div class="row">
                 <div class="col-md-6">
                     <table class="table table-bordered table-striped">
+                    <tr>
+
+                       @if(! empty($prescription_detail['tracking']) ) 
+
+                        @if(Auth::user()->user_type == 3)
+                        <td>Submit if it delivered</td>
+
+                        <td>{!! Form::open(array(
+                                'style' => 'display: inline-block;',
+                                'method' => 'POST',
+                                'onsubmit' => "return confirm('".trans("Does this order delivered ?")."');",
+                                'route' => ['admin.user.changeStatus', $prescription_detail['tracking']->id])) !!}
+                                <button type="submit" class="btn btn-success" title="Delivery Done"><i class="mdi mdi-delete">Mark Deliver</i></button>
+                                {!! Form::close()
+                            !!}
+                        </td>
+                        @endif
+                        @endif
+                    </tr>
                         <tr>
                             <th>Appointment Id</th>
                             <td>{{ $prescription_detail->appointment_id }}</td>
@@ -81,6 +100,11 @@
                         <tr>
                             <th>Patient Address</th>
                             <td>{{ $prescription_detail['patient']->address }}</td>
+                        </tr>
+
+                        <tr>
+                            <th>Patient Phone Number</th>
+                            <td>{{ $prescription_detail['patient']->phone_number }}</td>
                         </tr>
 
                         <tr>
@@ -165,6 +189,8 @@
                         <td>
 
                             <button type="submit" class="btn btn-success">Submit</button>
+                    
+
                             </td>
                             </form>
                             @endif

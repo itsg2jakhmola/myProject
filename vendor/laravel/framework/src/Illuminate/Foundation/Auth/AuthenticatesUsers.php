@@ -115,7 +115,17 @@ trait AuthenticatesUsers
             return $this->authenticated($request, Auth::guard($this->getGuard())->user());
         }
 
-        return redirect()->intended('/admin/welcome');
+        $redirectUrl = '';
+
+        if(Auth::user()->user_type == 1){
+           $redirectUrl = 'admin/appointment_setting';             
+        }else if(Auth::user()->user_type == 2){
+            $redirectUrl = 'admin/docappoint_setting';
+        }else {
+            $redirectUrl = 'admin/pharmist_setting';
+        }
+
+        return redirect()->intended($redirectUrl);
     }
 
     /**

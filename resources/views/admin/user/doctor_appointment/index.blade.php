@@ -39,7 +39,7 @@
                                         <span style="display:none;">                                            
                                             {{ \Carbon\Carbon::parse($info->created_at)->format('Y/m/d')}}
                                         </span>
-                                        {{ $info->created_at }}                                         
+                                        {{ \Carbon\Carbon::parse($info->created_at)->format('d/m/Y')}}                                                  
                                     </td>
                                      <td>
                                         <!--<a href="{{ route('admin.medical_history.show',[$info->id]) }}" class="btn btn-xs btn-primary" title="View"><i class="mdi mdi-magnify"></i>View</a>-->

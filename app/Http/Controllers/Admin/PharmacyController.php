@@ -74,6 +74,7 @@ class PharmacyController extends Controller
         $pharmaTracking->pack_time = $request->pack_time;
         $pharmaTracking->pharma_name = $request->pharma_name;
         $pharmaTracking->amount = $request->amount;
+        $pharmaTracking->user_id = Auth::user()->id;
         $pharmaTracking->save();
 
 
@@ -116,7 +117,7 @@ class PharmacyController extends Controller
 
         $prescription_detail = DoctorPrescription::where('id', $id)->first()->load('doctor', 'patient', 'pharmist', 'tracking', 'booking_request');
         
-        
+        //dd($prescription_detail);
         return view('admin.user.prescription.show', compact('prescription_detail', 'user'));
     }
 
@@ -173,6 +174,17 @@ class PharmacyController extends Controller
 
     }
 
+ public function changeStatus($id) {
+     
+        $pharmaTracking = PharmaTracking::firstOrNew([
+               'id' => $id 
+        ]);   
+        
+        $pharmaTracking->status = 1;
+        $pharmaTracking->save();
+        
+        return redirect()->route('admin.pharmist_setting.index');
+    }
     /**
      * Remove the specified resource from storage.
      *

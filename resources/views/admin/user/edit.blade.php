@@ -56,7 +56,7 @@
          <div class="row">
             <div class="col-xs-12 form-group">
 
-                {!! Form::label('medical_scan', 'Medical Scan *', ['class'=>'control-label']) !!}
+                {!! Form::label('medical_scan', 'Medical Scan ', ['class'=>'control-label']) !!}
 
                 {!! Form::file('medical_scan', ['class'=>'filestyle', 'data-input' => 'false']) !!}
                 <!-- <p class="help-block" style="color:#0b6ad3">(Recommended size is: 45 x 45)</p> -->

@@ -48,7 +48,7 @@
                                     <div class="row smpad">
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label>Notes/Description</label>
+                                                <label>Reason to see your doctor</label>
                                                 <textarea name="notes" class="form-control" placeholder="Input Your Notes/Description.."></textarea>
                                                <!--  <input type="text" name="notes" class="form-control" placeholder="Input Your Notes/Description.." value="{{old('notes')}}"> -->
                                                 <p class="help-block error">

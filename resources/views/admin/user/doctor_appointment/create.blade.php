@@ -38,8 +38,8 @@
                                     <div class="row smpad">
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label>Notes/Description</label>
-                                                <textarea name="notes" class="form-control" placeholder="Input Your Notes/Description.."></textarea>
+                                                <label>Reason to see your doctor</label>
+                                                <textarea name="notes" class="form-control" placeholder="Input Your Reason to see your doctor.."></textarea>
                                                <!--  <input type="text" name="notes" class="form-control" placeholder="Input Your Notes/Description.." value="{{old('notes')}}"> -->
                                                 <p class="help-block error">
                                                 {!! $errors->has('notes') ? $errors->first('notes') : '' !!}

@@ -16,7 +16,7 @@
                             <ul class="nav nav-tabs">
                                   <li class="active"><a data-toggle="tab" href="#home">General</a></li>
                                   <li>
-                                  <a  href="{{ url('/admin/alergic_history') }}" class="btn btn-xs btn-info pull-right">Alergic</a>
+                                  <a  href="{{ url('/admin/alergic_history') }}" class="btn btn-xs btn-info pull-right">Allergy Details</a>
                                   </li>
                             </ul>
 
@@ -34,7 +34,7 @@
                                         <th>Name</th>
                                         <th>Description</th>
                                         <th>Medical Scan</th>
-                                        <th>Medical ScanDt</th>
+                                        <th>Medical Scan Date</th>
                                         <th>Created at</th>
                                         <th>Action</th>
                                     </thead>
@@ -52,12 +52,13 @@
 
 
                                         <img src="{{url( $info->medical_scan_path )}}" class="img-circle imgLightBox img-thumbnail example-image" alt="profile-image"> </a> </td>
-                                        <td> {{ $info->medical_scan_dt }}</td>
+                                        <td> 
+                                        {{ \Carbon\Carbon::parse($info->medical_scan_dt)->format('m/d/Y')}}</td>                        
                                     <td> 
                                         <span style="display:none;">                                            
                                             {{ \Carbon\Carbon::parse($info->created_at)->format('Y/m/d')}}
                                         </span>
-                                        {{ $info->created_at }}                                         
+                                        {{ \Carbon\Carbon::parse($info->created_at)->format('m/d/Y')}}                        
                                     </td>
                                      <td>
                                         <!--<a href="{{ route('admin.medical_history.show',[$info->id]) }}" class="btn btn-xs btn-primary" title="View"><i class="mdi mdi-magnify"></i>View</a>-->

@@ -61,19 +61,19 @@ class MedicalHistoryController extends Controller
 
             $this->validate($request, [
                 'name'     => 'required',
-                'description'  => 'required',
-                'medical_scan'   => 'required | mimes:jpeg,jpg,png,gif,svg',
+                'description'  => 'required'
             ]);
+
+            $fileName = '';
 
             if( $request->hasFile('medical_scan') ) {
 
                 $medical_scan = $request->file('medical_scan');
 
                 $fileName = time() . '_' . $medical_scan->getClientOriginalName();
-
                 $destination = public_path() . '/images/medicalhistory/';
                 $medical_scan->move($destination, $fileName);
-
+            }
                 $medicalHistory = new Medicalhistory;
                 $medicalHistory->fill($request->all());
                 $medicalHistory->medical_scan = $fileName;
@@ -83,7 +83,7 @@ class MedicalHistoryController extends Controller
                 $medicalHistory->medical_scan_path = '/images/medicalhistory/' . $fileName;
                 $medicalHistory->medical_scan_dt = $request->input('medical_scan_dt');               
                 $medicalHistory->save();
-            }
+            
 
            return redirect()->route('admin.medical_history.index')->with("status", "Medical History successfully saved");
     }
@@ -136,7 +136,7 @@ class MedicalHistoryController extends Controller
             //image validation
             if($request->medical_scan || !$medical_history->medical_scan){
                 $this->validate($request, [
-                'medical_scan'   => 'required | mimes:jpeg,jpg,png,gif,svg',
+                //'medical_scan'   => 'required | mimes:jpeg,jpg,png,gif,svg',
                 ]);
             }
 
@@ -146,19 +146,23 @@ class MedicalHistoryController extends Controller
             $medical_history->medical_scan_dt = $request->input('medical_scan_dt'); 
             $medical_history->save();
             
+            $fileName = '';
+
             if ($request->hasFile('medical_scan')) {
                 $medical_scan = $request->file('medical_scan');
 
                 $fileName = time() . '_' . $medical_scan->getClientOriginalName();
 
+            
                 $destination = public_path() . '/images/medicalhistory/';
                 $medical_scan->move($destination, $fileName);
-
+             }   
+             
                 $medical_history->medical_scan = $fileName;
                 $medical_history->medical_scan_path = '/images/medicalhistory/' . $fileName;
                 
                 $medical_history->save();
-            }
+            
 
            return redirect()->back()->with("status", "Well done!! Medical history detail updated successfully");
     }

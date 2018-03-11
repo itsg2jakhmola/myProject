@@ -43,7 +43,7 @@
                                     <div class="row smpad">
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="exampleInputEmail1">Upload File *</label>
+                                                <label for="exampleInputEmail1">Upload File </label>
                                                 <input type="file" name="medical_scan" class="form-control" placeholder="Upload Scan Copy">
                                                 {!! $errors->has('medical_scan') ? $errors->first('medical_scan') : '' !!}
                                             </div>

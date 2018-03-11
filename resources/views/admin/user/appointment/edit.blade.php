@@ -45,7 +45,7 @@
 
             {!! Form::label('speciality', 'Doctor Speciality*', ['class'=>'control-label']) !!}
 
-                {!! Form::text('doctor_speciality', $appointmentRequest->doctor_speciality, ['placeholder'=>'Input Notes/Description Here ..', 'id'=>'doctor_speciality', 'class'=>'form-control', 'readonly']) !!}
+                {!! Form::text('doctor_speciality', $appointmentRequest->doctor_speciality, ['placeholder'=>'Input Reason to see your doctor Here ..', 'id'=>'doctor_speciality', 'class'=>'form-control', 'readonly']) !!}
 
                 
             </div>
@@ -56,7 +56,7 @@
 
                 {!! Form::label('description', 'Description*', ['class'=>'control-label']) !!}
 
-                {!! Form::text('notes', $appointmentRequest->notes, ['placeholder'=>'Input Notes/Description Here ..', 'id'=>'notes', 'class'=>'form-control']) !!}
+                {!! Form::text('notes', $appointmentRequest->notes, ['placeholder'=>'Input Reason to see your doctor Here ..', 'id'=>'notes', 'class'=>'form-control']) !!}
                 <p class="help-block error">
                     {!! $errors->has('notes') ? $errors->first('notes') : '' !!}
                 </p>

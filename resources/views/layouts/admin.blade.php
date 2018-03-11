@@ -73,16 +73,7 @@
             </div>
 
             <ul class="nav">
-             <li {{ (current_page('welcome')) ? 'class=active' : ''}}>
-                   <!--  <a href="{{url('/admin/welcome')}}">
-                        <i class="pe-7s-graph"></i>
-                        <p>Dashboard</p>
-                    </a> -->
-                    <a href="{{url('/admin/welcome')}}">
-                        <i class="pe-7s-user"></i>
-                        <p>User Profile </p>
-                    </a>
-                </li>
+             
                <!--  <li {{ (current_page('user')) ? 'class=active' : ''}}>
                     <a href="{{url('/admin/user')}}">
                         <i class="pe-7s-user"></i>
@@ -98,6 +89,8 @@
                     </a>
                 </li>
                 @endif
+
+
 
                 @if(auth()->user()->user_type == 2)
                 <li {{ (current_page('docappoint_setting')) ? 'class=active' : ''}}>
@@ -126,20 +119,20 @@
                 </li>
                 @endif
 
-                @if( auth()->user()->user_type == 1 || auth()->user()->user_type == 3)
+                @if( auth()->user()->user_type == 1 || auth()->user()->user_type == 2 || auth()->user()->user_type == 3)
                 <li {{ (current_page('pharmist_setting')) ? 'class=active' : ''}}>
                     <a href="{{url('/admin/pharmist_setting')}}">
                         <i class="pe-7s-news-paper"></i>
-                        <p>Prescription List</p>
+                        <p>Prescription Analysis</p>
                     </a>
                 </li>
                 @endif
 
                 @if(auth()->user()->user_type == 3)
                 <li {{ (current_page('add_prscription')) ? 'class=active' : ''}}>
-                    <a href="{{url('/admin/add_prscriptions')}}">
+                    <a href="{{url('/admin/process')}}">
                         <i class="pe-7s-news-paper"></i>
-                        <p>New Prescription</p>
+                        <p>Tracking</p>
                     </a>
                 </li>
                 @endif
@@ -149,6 +142,15 @@
                     <a href="{{url('/admin/medical_history')}}">
                         <i class="pe-7s-science"></i>
                         <p>Medical History</p>
+                    </a>
+                </li>
+                @endif
+
+                 @if(auth()->user()->user_type == 1 || auth()->user()->user_type == 2)
+                <li {{ (current_page('lab_work')) ? 'class=active' : ''}}>
+                    <a href="{{url('/admin/lab_work')}}">
+                        <i class="pe-7s-science"></i>
+                        <p>Lab Work</p>
                     </a>
                 </li>
                 @endif
@@ -177,6 +179,17 @@
                     </a>
                 </li>
                 @endif
+
+                <li {{ (current_page('welcome')) ? 'class=active' : ''}}>
+                   <!--  <a href="{{url('/admin/welcome')}}">
+                        <i class="pe-7s-graph"></i>
+                        <p>Dashboard</p>
+                    </a> -->
+                    <a href="{{url('/admin/welcome')}}">
+                        <i class="pe-7s-user"></i>
+                        <p>User Profile </p>
+                    </a>
+                </li>
                 <!-- <li>
                     <a href="notifications.html">
                         <i class="pe-7s-bell"></i>

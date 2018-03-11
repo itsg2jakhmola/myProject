@@ -158,6 +158,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function()
     Route::post('send/suggestedUser/{id?}', ['uses' =>'Admin\FindUserController@updateCreate', 'as' => 'admin.find_user.updateCreate']);
 
     Route::resource('appointment_setting', 'Admin\MyAppointmentController');
+    Route::resource('lab_work', 'Admin\MyLabWorkController');
     Route::resource('docappoint_setting', 'Admin\DoctorAppointmentController');
     
     Route::post('docappoint_setting/cancel/{id}', ['as' => 'admin.docappoint_setting.cancel', 'uses'=> 'Admin\DoctorAppointmentController@cancel']);
@@ -175,7 +176,8 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function()
     Route::get('/review/{id}', ['uses' => 'Admin\ReviewController@show', 'as' => 'admin.review.show']);
     Route::post('/review/send/{id}', ['uses' => 'Admin\ReviewController@review', 'as' => 'admin.review.review']);
     Route::get('/cancelation_list', 'Admin\CancelationListController@index');
-    Route::get('/add_prscriptions', 'Admin\AddPrescriptionController@index');
+    Route::get('/process', 'Admin\AddPrescriptionController@index');
+    Route::post('order/process/{id}', ['uses' =>'Admin\PharmacyController@changeStatus', 'as' => 'admin.user.changeStatus']);
     Route::get('/appoinment_reminder', 'Admin\ApppoinmentReminderController@index');
     
     Route::post('user/update/{user_id}', ['uses' =>'Admin\UserController@update', 'as' => 'admin.user.update']);

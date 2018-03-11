@@ -11,7 +11,7 @@
 
                                 @include('includes.flash')
 
-                                <a href="{{route('admin.appointment_setting.create')}}" class="btn btn-info btn-fill pull-right">Add Appointment</a>
+                                <a href="{{route('admin.appointment_setting.create')}}" class="btn btn-info btn-fill pull-right">Schedule appointment</a>
 
                                 <h4 class="title">Appointment History</h4>
                                 <p class="category"> <b> Total : {{count($appointment_list)}} </b> </p>
@@ -21,7 +21,7 @@
                                     <thead>
                                         <!-- <th>Doctor Speciality</th> -->
                                         <th>Notes</th>
-                                        <th>Nearby_doctor</th>
+                                        <th>Doctor</th>
                                         <th>Seen By Doctor</th>
                                         <th>Appointment Date/Time</th>
                                         <th>Action</th>
@@ -39,9 +39,9 @@
                                     <td> {{ ($info['appointment_request']) ? $info['appointment_request']->seen : 'No'}}</td> 
                                     <td>
                                         <span style="display:none;">                                            
-                                            {{ \Carbon\Carbon::parse($info->created_at)->format('Y/m/d')}}
+                                            {{ \Carbon\Carbon::parse($info->created_at)->format('m/d/Y')}}
                                         </span>
-                                        {{ $info->created_at }}                                         
+                                        {{ \Carbon\Carbon::parse($info->created_at)->format('d/m/Y')}}                                         
                                     </td>
                                      <td>
                                         <!--<a href="{{ route('admin.medical_history.show',[$info->id]) }}" class="btn btn-xs btn-primary" title="View"><i class="mdi mdi-magnify"></i>View</a>-->

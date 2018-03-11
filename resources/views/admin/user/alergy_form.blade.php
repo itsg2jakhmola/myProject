@@ -34,7 +34,7 @@
                                             <div class="form-group">
                                                 <label>Description</label>
                                                 <br>
-                                                <textarea name="description" placeholder="Input your remarks here..">{{old('description')}}</textarea>
+                                                <textarea name="description" placeholder="Description of drugs/food you are allergic to..">{{old('description')}}</textarea>
                                                 <p class="help-block error">
                                                 {!! $errors->has('description') ? $errors->first('description') : '' !!}
                                             </p>
